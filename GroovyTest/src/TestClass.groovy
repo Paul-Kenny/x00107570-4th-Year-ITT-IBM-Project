@@ -46,7 +46,7 @@ class TestClass {
         //Create delete temporary directory command
         String removeTemp = "rm -rf " + tempDir
         //Execute delete temporary directory command
-        removeTemp.execute()
+        //removeTemp.execute()
     }
 
     //List files in untarred directory
@@ -79,7 +79,6 @@ class TestClass {
             System.out.println("This" + path)
             basicTarRead(path)
         }
-
     }
 
     //Read and list files in tar
@@ -87,80 +86,34 @@ class TestClass {
         /* Read TAR File into TarArchiveInputStream */
         TarArchiveInputStream myTarFile=new TarArchiveInputStream(new FileInputStream(new File(tarPath)));
         /* Read individual TAR file */
-        TarArchiveEntry entry = null;
-        String individualFiles;
-        int offset;
-        FileOutputStream outputFile=null;
+        TarArchiveEntry entry = null
+        String individualFiles
+        int offset
+        FileOutputStream outputFile=null
         /* While loop to read every single entry in TAR file */
         while ((entry = myTarFile.getNextTarEntry()) != null) {
             /* Get the name of the file */
-            individualFiles = entry.getName();
+            individualFiles = entry.getName()
             /* SOP statement to check progress */
-            System.out.println("xxFile Name in TAR File is: " + individualFiles);
+            //System.out.println("xxFile Name in TAR File is: " + individualFiles)
+            getJarName(individualFiles)
         }
         /* Close TarAchiveInputStream */
-        myTarFile.close();
+        myTarFile.close()
     }
 
-    //Read list of files in tar
-    //Locate inner tars and read list of files in them
-    void tarRead(String tarPath){
-        /* Read TAR File into TarArchiveInputStream */
-        TarArchiveInputStream myTarFile=new TarArchiveInputStream(new FileInputStream(new File(tarPath)));
-        /* Read individual TAR file */
-        TarArchiveEntry entry = null;
-        String individualFiles;
-        int offset;
-        FileOutputStream outputFile=null;
-        /* While loop to read every single entry in TAR file */
-        while ((entry = myTarFile.getNextTarEntry()) != null) {
-            /* Get the name of the file */
-            individualFiles = entry.getName();
-            /* SOP statement to check progress */
-            System.out.println("File Name in TAR File is: " + individualFiles);
-            /*Test for tar regex*/
-            String patternString =  "^.*\\.(tar)\$";
-            Pattern pattern = Pattern.compile(patternString);
-            Matcher matcher = pattern.matcher(individualFiles);
-            boolean matches = matcher.matches();
+    //Parse jar names
+    void getJarName(String filePath){
+        /*Test for jar regex*/
+        String patternString =  "^.*\\.(jar)\$"
+        Pattern pattern = Pattern.compile(patternString)
+        Matcher matcher = pattern.matcher(filePath)
+        boolean matches = matcher.matches()
 
-            //If statement to start new tar search
-            if(matches == true){
-                System.out.println("Content of " + tarPath + "/" + individualFiles );
-                outerInnerTarRead(tarPath, individualFiles);
-                //read(tarPath, individualFiles);
-            }
-            else{
-                System.out.println("Nope");
-            }
+        //If statement to start new tar search
+        if(matches == true){
+            System.out.println("Jar name: " + filePath )
         }
-        /* Close TarAchiveInputStream */
-        myTarFile.close();
     }
-
-    void outerInnerTarRead(String outerTarPath, String innerTarPath){
-        System.out.println("******************************************************************");
-        /* Read TAR File into TarArchiveInputStream */
-        TarArchiveInputStream myTarFile=new TarArchiveInputStream(new FileInputStream(new File(outerTarPath + "/" + innerTarPath)));
-        /* Read individual TAR file */
-        TarArchiveEntry entry = null;
-        String individualFiles;
-        int offset;
-        FileOutputStream outputFile=null;
-        /* While loop to read every single entry in TAR file */
-        while ((entry = myTarFile.getNextTarEntry()) != null) {
-            /* Get the name of the file */
-            individualFiles = entry.getName();
-            /* Some SOP statements to check progress */
-            System.out.println("File Name in TAR File is: " + individualFiles);
-        }
-        /* Close TarAchiveInputStream */
-        myTarFile.close();
-        System.out.println("******************************************************************");
-    }
-
-
-
-
 }
 
