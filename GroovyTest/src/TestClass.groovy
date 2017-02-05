@@ -1,7 +1,6 @@
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream
-import org.apache.commons.io.IOUtils;
-import java.io.*;
+import java.io.*
 import java.util.regex.Pattern
 import java.util.regex.Matcher
 import groovy.io.FileType
@@ -46,7 +45,7 @@ class TestClass {
         //Create delete temporary directory command
         String removeTemp = "rm -rf " + tempDir
         //Execute delete temporary directory command
-        //removeTemp.execute()
+        removeTemp.execute()
     }
 
     //List files in untarred directory
@@ -57,8 +56,8 @@ class TestClass {
         //Read directory contents
         def dir = new File(tempDir)
         //Add directory contents to the list array
-        dir.eachFileRecurse (FileType.FILES) { file ->
-            list << file
+        dir.eachFileRecurse (FileType.FILES) {
+            file -> list << file
         }
         println "###################################"
         //Read list array contents to locate tars
@@ -69,50 +68,55 @@ class TestClass {
 
     //Use regex to read tar contents
     void findTar(String path){
-        String patternString =  "^.*\\.(tar)\$";
-        Pattern pattern = Pattern.compile(patternString);
-        Matcher matcher = pattern.matcher(path);
-        boolean matches = matcher.matches();
+        //Test for tar regex
+        String patternString =  "^.*\\.(tar)\$"
+        Pattern pattern = Pattern.compile(patternString)
+        Matcher matcher = pattern.matcher(path)
+        boolean matches = matcher.matches()
 
         //If statement to start new tar search
         if(matches == true) {
-            System.out.println("This" + path)
+            println(path)
             basicTarRead(path)
         }
     }
 
     //Read and list files in tar
     void basicTarRead(String tarPath){
-        /* Read TAR File into TarArchiveInputStream */
-        TarArchiveInputStream myTarFile=new TarArchiveInputStream(new FileInputStream(new File(tarPath)));
-        /* Read individual TAR file */
+        // Read TAR File into TarArchiveInputStream
+        TarArchiveInputStream myTarFile=new TarArchiveInputStream(new FileInputStream(new File(tarPath)))
+        // Read individual TAR file
         TarArchiveEntry entry = null
         String individualFiles
-        int offset
-        FileOutputStream outputFile=null
-        /* While loop to read every single entry in TAR file */
+        // While loop to read every single entry in TAR file
         while ((entry = myTarFile.getNextTarEntry()) != null) {
-            /* Get the name of the file */
+            // Get the name of the file
             individualFiles = entry.getName()
-            /* SOP statement to check progress */
-            //System.out.println("xxFile Name in TAR File is: " + individualFiles)
+            //Get the name of all jars in tar
             getJarName(individualFiles)
         }
         /* Close TarAchiveInputStream */
         myTarFile.close()
     }
 
-    //Parse jar names
+    ////Use regex to find jars
     void getJarName(String filePath){
-        /*Test for jar regex*/
+        //Test for jar regex
         String patternString =  "^.*\\.(jar)\$"
         Pattern pattern = Pattern.compile(patternString)
         Matcher matcher = pattern.matcher(filePath)
         boolean matches = matcher.matches()
 
-        //If statement to start new tar search
+        //Search tars for jars
         if(matches == true){
-            System.out.println("Jar name: " + filePath )
+            println("Jar name: " + filePath )
+            String myString = filePath
+            //Parse the jar name without the file extension
+            String withoutJarEx = myString.substring(myString.lastIndexOf("/")+1, myString.indexOf("."))
+            //Parse the jar name with the file extension
+            String withJarEx = myString.substring(myString.lastIndexOf("/")+1)
+            println("New jar without extension: " + withoutJarEx)
+            println("New jar with extension: " + withJarEx)
         }
     }
 }
