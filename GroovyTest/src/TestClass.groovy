@@ -11,41 +11,50 @@ import groovy.io.FileType
 
 class TestClass {
 
-    /*//Test to see if docker command can be run on shell
-    def executeOnShell(String command1, String command2) {
-        String command = (command1 + command2)
-        return executeOnShell(command, new File('/home/Paul'))
+    // Start the scan process
+    void start(String imageName, String tempDir){
+        // Make temp directory to store the docker image tarball
+        String tarballDir= makeDir(tempDir)
+        // Save the docker image tarball to the tarballDir
+        dockerTar(imageName, tarballDir)
+        // Make inner directory to store the unarchived tarball
+        String untarDir = makeDir(tarballDir)
+        // Unarchive the image tarball untarDir
+        untarImage(imageName, tarballDir, untarDir)
     }
 
-    def executeOnShell(String command, File workingDir) {
-        println command
-        def process = new ProcessBuilder(command)
-                .directory(workingDir)
-                .redirectErrorStream(true)
-                .start()
-        process.inputStream.eachLine {println it}
-        process.waitFor()
-        return process.exitValue()
-    }*/
-
-    //Untar docker tar
-    void untarImage(String imageName, String dir){
+    // Make the temporary directory
+    String makeDir(String tempDir){
         //Create temporary tar directory path
-        String tempDir =  dir + "TempTar"
+        tempDir =  tempDir + "Temp/"
         //Create make directory string
         String makeDir = "mkdir " + tempDir
         //Execute make directory
         makeDir.execute()
+        return tempDir
+    }
+
+    // Save the docker image as a tarball
+    void dockerTar(String imageName, String tempDirPath){
+        String dockerSave = 'docker save ' + imageName + ' --output ' + tempDirPath + "/" + imageName + '.tar'
+        def proc = dockerSave.execute()
+        def out = new StringBuilder(), err = new StringBuilder()
+        proc.consumeProcessOutput(out,err)
+    }
+
+    //Untar docker tar
+    void untarImage(String imageName, String tarballDir, String untarDir){
         //Create untar string
-        String untarCommand = "tar -xvf " + dir + imageName + " -C " + tempDir
+        String untarCommand = "tar -xvf " + tarballDir + imageName + ".tar -C " + untarDir
+        println untarCommand
         //Execute untar command
-        untarCommand.execute()
+        //untarCommand.execute()
         //Read all directories in untar
-        readTempTar(tempDir)
+        //readTempTar(tempDir)
         //Create delete temporary directory command
-        String removeTemp = "rm -rf " + tempDir
+       // String removeTemp = "rm -rf " + tempDir
         //Execute delete temporary directory command
-        removeTemp.execute()
+       // removeTemp.execute()
     }
 
     //List files in untarred directory
