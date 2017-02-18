@@ -21,6 +21,17 @@ class TestClass {
         String untarDir = makeDir(tarballDir)
         // Unarchive the image tarball untarDir
         untarImage(imageName, tarballDir, untarDir)
+        //Read all directories in untar
+        readTempTar(untarDir)
+        //Create delete temporary directory command
+        String removeTemp = "rm -rf " + untarDir
+        //Execute delete temporary directory command
+        removeTemp.execute()
+
+        //Create delete temporary directory command
+        removeTemp = "rm -rf " + tarballDir
+        //Execute delete temporary directory command
+        removeTemp.execute()
     }
 
     // Make the temporary directory
@@ -40,21 +51,17 @@ class TestClass {
         def proc = dockerSave.execute()
         def out = new StringBuilder(), err = new StringBuilder()
         proc.consumeProcessOutput(out,err)
+        sleep(60000)
     }
 
     //Untar docker tar
     void untarImage(String imageName, String tarballDir, String untarDir){
         //Create untar string
         String untarCommand = "tar -xvf " + tarballDir + imageName + ".tar -C " + untarDir
-        println untarCommand
-        //Execute untar command
-        //untarCommand.execute()
-        //Read all directories in untar
-        //readTempTar(tempDir)
-        //Create delete temporary directory command
-       // String removeTemp = "rm -rf " + tempDir
-        //Execute delete temporary directory command
-       // removeTemp.execute()
+        def proc = untarCommand.execute()
+        def out = new StringBuilder(), err = new StringBuilder()
+        proc.consumeProcessOutput(out,err)
+        sleep(60000)
     }
 
     //List files in untarred directory

@@ -17,4 +17,5 @@ test = new TestClass()
 
 //test.dockerTar('hello-world', '/home/Paul/TempTar/')
 test.start('java', '/home/Paul/')
-//test.untarImage('hello-world', '/home/Paul/Temp/', '/home/Paul/Temp/Temp/')
+//test.untarImage('java', '/home/Paul/Temp/', '/home/Paul/Temp/Temp/')
+//test.readTempTar('/home/Paul/Temp/Temp')
