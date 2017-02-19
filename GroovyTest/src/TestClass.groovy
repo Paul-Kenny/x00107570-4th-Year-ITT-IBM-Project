@@ -1,3 +1,5 @@
+import org.apache.commons.compress.archivers.jar.JarArchiveEntry
+import org.apache.commons.compress.archivers.jar.JarArchiveInputStream
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream
 import java.io.*
@@ -21,17 +23,19 @@ class TestClass {
         String untarDir = makeDir(tarballDir)
         // Unarchive the image tarball untarDir
         untarImage(imageName, tarballDir, untarDir)
+        //Make temp jar directory
+        String jarDir = makeDir(untarDir)
         //Read all directories in untar
         readTempTar(untarDir)
         //Create delete temporary directory command
-        String removeTemp = "rm -rf " + untarDir
+        //String removeTemp = "rm -rf " + untarDir
         //Execute delete temporary directory command
-        removeTemp.execute()
+       // removeTemp.execute()
 
         //Create delete temporary directory command
-        removeTemp = "rm -rf " + tarballDir
+        //removeTemp = "rm -rf " + tarballDir
         //Execute delete temporary directory command
-        removeTemp.execute()
+        //removeTemp.execute()
     }
 
     // Make the temporary directory
@@ -51,7 +55,8 @@ class TestClass {
         def proc = dockerSave.execute()
         def out = new StringBuilder(), err = new StringBuilder()
         proc.consumeProcessOutput(out,err)
-        sleep(60000)
+        proc.waitFor()
+        //sleep(60000)
     }
 
     //Untar docker tar
@@ -61,7 +66,8 @@ class TestClass {
         def proc = untarCommand.execute()
         def out = new StringBuilder(), err = new StringBuilder()
         proc.consumeProcessOutput(out,err)
-        sleep(60000)
+        proc.waitFor()
+        //sleep(60000)
     }
 
     //List files in untarred directory
@@ -109,14 +115,14 @@ class TestClass {
             // Get the name of the file
             individualFiles = entry.getName()
             //Get the name of all jars in tar
-            getJarName(individualFiles)
+            getJarName(tarPath, individualFiles)
         }
         /* Close TarAchiveInputStream */
         myTarFile.close()
     }
 
     ////Use regex to find jars
-    void getJarName(String filePath){
+    void getJarName(String tarPath, String filePath){
         //Test for jar regex
         String patternString =  "^.*\\.(jar)\$"
         Pattern pattern = Pattern.compile(patternString)
@@ -134,6 +140,31 @@ class TestClass {
             println("New jar without extension: " + withoutJarEx)
             println("New jar with extension: " + withJarEx)
         }
+
     }
+
+    //Extract jar from tar
+    //void extractJar(String tarPath, String filePath){
+    //    String extractCommand = "tar -xf " + tarPath + " " + filePath
+    //    extractCommand.execute()
+   // }
+
+    //Read and list files in tar
+    void basicJarRead(String jarPath){
+        // Read TAR File into TarArchiveInputStream
+        JarArchiveInputStream myJarFile=new JarArchiveInputStream(new FileInputStream(new File(jarPath)))
+        // Read individual TAR file
+        JarArchiveEntry entry = null
+        String individualFiles
+        // While loop to read every single entry in TAR file
+        while ((entry = myJarFile.getNextJarEntry()) != null) {
+            // Get the name of the file
+            individualFiles = entry.getName()
+            println individualFiles
+        }
+        /* Close JarAchiveInputStream */
+        myJarFile.close()
+    }
+
 }
 

@@ -19,3 +19,6 @@ test = new TestClass()
 test.start('java', '/home/Paul/')
 //test.untarImage('java', '/home/Paul/Temp/', '/home/Paul/Temp/Temp/')
 //test.readTempTar('/home/Paul/Temp/Temp')
+//test.basicJarRead('/home/Paul/Temp/Temp/Temp/usr/share/java/java-atk-wrapper.jar')
+
+//tar -xf /home/Paul/Temp/Temp/fbebd615ed02d0a75bea03aeea50fbc7e65b8b1c26ff5f261293c2c38b54fc7b/layer.tar usr/share/java/java-atk-wrapper.jar
