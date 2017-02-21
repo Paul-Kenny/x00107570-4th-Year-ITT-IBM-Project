@@ -15,22 +15,27 @@ class TestClass {
 
     // Start the scan process
     void start(String imageName, String tempDir){
+
         // Make temp directory to store the docker image tarball
         String tarballDir= makeDir(tempDir)
-        // Save the docker image tarball to the tarballDir
-        dockerTar(imageName, tarballDir)
         // Make inner directory to store the unarchived tarball
         String untarDir = makeDir(tarballDir)
+        // Make temp jar directory
+        String jarDir = makeDir(untarDir)
+
+        // Save the docker image tarball to the tarballDir
+        dockerTar(imageName, tarballDir)
+
         // Unarchive the image tarball untarDir
         untarImage(imageName, tarballDir, untarDir)
-        //Make temp jar directory
-        String jarDir = makeDir(untarDir)
+
         //Read all directories in untar
         readTempTar(untarDir)
+
         //Create delete temporary directory command
         //String removeTemp = "rm -rf " + untarDir
         //Execute delete temporary directory command
-       // removeTemp.execute()
+        //removeTemp.execute()
 
         //Create delete temporary directory command
         //removeTemp = "rm -rf " + tarballDir
@@ -45,7 +50,7 @@ class TestClass {
         //Create make directory string
         String makeDir = "mkdir " + tempDir
         //Execute make directory
-        makeDir.execute()
+        makeDir.execute().waitFor()
         return tempDir
     }
 
@@ -56,7 +61,6 @@ class TestClass {
         def out = new StringBuilder(), err = new StringBuilder()
         proc.consumeProcessOutput(out,err)
         proc.waitFor()
-        //sleep(60000)
     }
 
     //Untar docker tar
@@ -67,7 +71,6 @@ class TestClass {
         def out = new StringBuilder(), err = new StringBuilder()
         proc.consumeProcessOutput(out,err)
         proc.waitFor()
-        //sleep(60000)
     }
 
     //List files in untarred directory
@@ -81,7 +84,6 @@ class TestClass {
         dir.eachFileRecurse (FileType.FILES) {
             file -> list << file
         }
-        println "###################################"
         //Read list array contents to locate tars
         list.each {
             findTar(it.path)
@@ -139,15 +141,23 @@ class TestClass {
             String withJarEx = myString.substring(myString.lastIndexOf("/")+1)
             println("New jar without extension: " + withoutJarEx)
             println("New jar with extension: " + withJarEx)
+            extractJar(tarPath, filePath)
         }
 
     }
 
     //Extract jar from tar
-    //void extractJar(String tarPath, String filePath){
-    //    String extractCommand = "tar -xf " + tarPath + " " + filePath
-    //    extractCommand.execute()
-   // }
+    void extractJar(String tarPath, String filePath){
+        String extractCommand = "tar -xf " + tarPath + " -C /home/Paul/Temp/Temp/Temp " + filePath
+        extractCommand.execute().waitFor()
+
+        String jarRead = "/home/Paul/Temp/Temp/Temp/" + filePath
+        if(jarRead != "/home/Paul/Temp/Temp/Temp/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar") {
+            println "#########Inner Jar Content###############"
+            basicJarRead(jarRead)
+            println "#########################################"
+        }
+    }
 
     //Read and list files in tar
     void basicJarRead(String jarPath){
@@ -160,10 +170,31 @@ class TestClass {
         while ((entry = myJarFile.getNextJarEntry()) != null) {
             // Get the name of the file
             individualFiles = entry.getName()
-            println individualFiles
+            getInnerJarName(individualFiles)
         }
         /* Close JarAchiveInputStream */
         myJarFile.close()
+    }
+
+    ////Use regex to find jars
+    void getInnerJarName(String filePath){
+        //Test for jar regex
+        String patternString =  "^.*\\.(jar)\$"
+        Pattern pattern = Pattern.compile(patternString)
+        Matcher matcher = pattern.matcher(filePath)
+        boolean matches = matcher.matches()
+
+        //Search tars for jars
+        if(matches == true){
+            String myString = filePath
+            //Parse the jar name without the file extension
+            String withoutJarEx = myString.substring(myString.lastIndexOf("/")+1, myString.indexOf("."))
+            //Parse the jar name with the file extension
+            String withJarEx = myString.substring(myString.lastIndexOf("/")+1)
+            println("New inner jar without extension: " + withoutJarEx)
+            println("New inner jar with extension: " + withJarEx)
+        }
+
     }
 
 }
