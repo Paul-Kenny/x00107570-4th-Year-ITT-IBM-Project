@@ -33,14 +33,9 @@ class TestClass {
         readTempTar(untarDir)
 
         //Create delete temporary directory command
-        //String removeTemp = "rm -rf " + untarDir
+        String removeTemp = "rm -rf " + tarballDir
         //Execute delete temporary directory command
-        //removeTemp.execute()
-
-        //Create delete temporary directory command
-        //removeTemp = "rm -rf " + tarballDir
-        //Execute delete temporary directory command
-        //removeTemp.execute()
+        removeTemp.execute()
     }
 
     // Make the temporary directory
