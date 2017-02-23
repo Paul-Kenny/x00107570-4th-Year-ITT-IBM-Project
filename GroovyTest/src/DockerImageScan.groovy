@@ -137,24 +137,24 @@ class DockerImageScan {
 
         //Extract jar from tar
         void extractJar(String tarPath, String jarPath, String destPath){
+            // Create jar extract bash command
             String extractCommand = "tar -xf " + tarPath + " -C " + destPath + " " + jarPath
+            // Execute jar extract bash command
             extractCommand.execute().waitFor()
-
+            // Concatenate full jar path
             String jarRead = destPath + jarPath
-            println jarRead
-            Path isNotSymlink = Paths.get(jarRead)
-            if(Files.isSymbolicLink(isNotSymlink)) {
-
-                println "xxxxx" + jarRead
-                //println "#########Inner Jar Content###############"
-                //basicJarRead(jarRead)
-                //println "#########################################"
+            // Check to see if the jar path is a symbolic link
+            Path SymlinkCheck = Paths.get(jarRead)
+            // If it is not a symbolic link then execute basicJarRead
+            if(!Files.isSymbolicLink(SymlinkCheck)) {
+                println "#########Inner Jar Content###############"
+                basicJarRead(jarRead)
+                println "#########################################"
             }
         }
 
         //Read and list files in jar
         void basicJarRead(String jarPath){
-            println "HERE???????????????"
             // Read JAR File into JarArchiveInputStream
             JarArchiveInputStream myJarFile=new JarArchiveInputStream(new FileInputStream(new File(jarPath)))
             // Read individual JAR file
