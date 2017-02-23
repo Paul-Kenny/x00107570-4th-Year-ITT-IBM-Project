@@ -10,17 +10,17 @@ import java.util.regex.Pattern
 import java.util.regex.Matcher
 import groovy.io.FileType
 
-
-
 class DockerImageScan {
 
         String tarballDir, untarDir, jarDir, imageName
+        def jarListFile
 
         DockerImageScan(String imageNameIn, String tempDir){
             tarballDir = makeDir(tempDir)
             untarDir = makeDir(tarballDir)
             jarDir = makeDir(untarDir)
             imageName = imageNameIn
+            jarListFile = new File('/home/Paul/jarTest.txt')
         }
 
         // Start the scan process
@@ -97,7 +97,6 @@ class DockerImageScan {
 
             //If statement to start new tar search
             if(matches == true) {
-                println(path)
                 basicTarRead(path)
             }
         }
@@ -147,9 +146,7 @@ class DockerImageScan {
             Path SymlinkCheck = Paths.get(jarRead)
             // If it is not a symbolic link then execute basicJarRead
             if(!Files.isSymbolicLink(SymlinkCheck)) {
-                println "#########Inner Jar Content###############"
                 basicJarRead(jarRead)
-                println "#########################################"
             }
         }
 
@@ -191,8 +188,8 @@ class DockerImageScan {
                 String withoutJarEx = jarPath.substring(jarPath.lastIndexOf("/")+1, jarPath.indexOf("."))
                 //Parse the jar name with the file extension
                 String withJarEx = jarPath.substring(jarPath.lastIndexOf("/")+1)
-                println("New inner jar without extension: " + withoutJarEx)
-                println("New inner jar with extension: " + withJarEx)
+                // Write jar names to external file
+                jarListFile << withJarEx + "\n"
         }
 
     }
