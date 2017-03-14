@@ -3,11 +3,11 @@
  */
 
 //Image scan onto faster mounted ram disk
-mountRamDisk = new DirBuilder('/ramdisk')
+//mountRamDisk = new DirBuilder('/ramdisk')
 //mountRamDisk.makeDisk()
 //mountRamDisk.mountDisk()
-mountRamDisk.unmountDisk()
-mountRamDisk.deleteDisk()
+//mountRamDisk.unmountDisk()
+//mountRamDisk.deleteDisk()
 
 //imageScan = new DockerImageScan('java', '/ramdisk/')
 //imageScan.scanImage()
@@ -15,8 +15,8 @@ mountRamDisk.deleteDisk()
 
 
 //Standard image scan
-//imageScan = new DockerImageScan('java', '/home/Paul/')
-//imageScan.scanImage()
+imageScan = new DockerImageScan('java', '/home/Paul/')
+imageScan.scanImage()
 
 
 
