@@ -14,6 +14,7 @@ class DockerImageScan {
 
     String tarballDir, untarDir, jarDir, imageName
     def jarListFile
+    def jarList = []
 
     DockerImageScan(String imageNameIn, String tempDir){
         tarballDir = makeDir(tempDir)
@@ -38,6 +39,8 @@ class DockerImageScan {
         String removeTemp = "rm -rf " + tarballDir
         //Execute delete temporary directory command
         removeTemp.execute()
+
+        queryDB()
     }
 
     // Make the temporary directory
@@ -214,7 +217,16 @@ class DockerImageScan {
         //Parse the jar name with the file extension
         //String withJarEx = jarPath.substring(jarPath.lastIndexOf("/")+1)
         // Write jar names to external file
-        jarListFile << jarPath + "\n"
+        //jarListFile << jarPath + "\n"
+        if(!jarList.contains(jarPath)) {
+            jarList << jarPath
+        }
     }
+
+    void queryDB(){
+        def connection = new DBInterface()
+        connection.connect(jarList)
+    }
+
 }
 
