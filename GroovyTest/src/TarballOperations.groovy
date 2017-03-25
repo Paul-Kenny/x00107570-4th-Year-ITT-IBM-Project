@@ -1,7 +1,6 @@
 import groovy.io.FileType
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream
-
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
@@ -10,9 +9,16 @@ import java.util.regex.Pattern
  */
 class TarballOperations {
 
+    String jarDir
+
+    TarballOperations(String jarDir){
+        this.jarDir = jarDir
+    }
+
     // Save the docker image as a tarball
     void dockerTar(String imageName, String tempDirPath) {
 
+        println "Creating tarball from " + imageName + " image..."
         // Create docker save command
         String dockerSave = 'docker save ' + imageName + ' --output ' + tempDirPath + "/" + imageName + '.tar'
         def proc = dockerSave.execute()
@@ -24,6 +30,7 @@ class TarballOperations {
     // Unarchive docker tarball
     void untarImage(String imageName, String tarballDir, String untarDir) {
 
+        println "Un-archiving " + imageName + " image..."
         //Create tarball unarchive command
         String untarCommand = "tar -xvf " + tarballDir + imageName + ".tar -C " + untarDir
         def proc = untarCommand.execute()
@@ -35,6 +42,7 @@ class TarballOperations {
     // List files in unarchived directory
     void readTempTar(String tempDir) {
 
+        println "Searching un-archived image for tarball layers..."
         // Create directory content list
         def list = []
 
@@ -70,6 +78,7 @@ class TarballOperations {
     // Read and list files in tarball
     void basicTarRead(String tarPath) {
 
+        println "Found tarball: " + tarPath
         // Read tarball File into TarArchiveInputStream
         TarArchiveInputStream myTarFile = new TarArchiveInputStream(new FileInputStream(new File(tarPath)))
 
@@ -85,9 +94,11 @@ class TarballOperations {
             individualFiles = entry.getName()
 
             // Get the name of all jars in tarball
-            jarFile.getJarName(tarPath, individualFiles)
+            jarFile.getJarName(tarPath, individualFiles, jarDir)
         }
         // Close TarAchiveInputStream
         myTarFile.close()
     }
+
+
 }

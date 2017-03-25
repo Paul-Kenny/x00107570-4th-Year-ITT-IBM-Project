@@ -1,6 +1,5 @@
 import org.apache.commons.compress.archivers.jar.JarArchiveEntry
 import org.apache.commons.compress.archivers.jar.JarArchiveInputStream
-
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -12,8 +11,10 @@ import java.util.regex.Pattern
  */
 class JarFileOperations {
 
+    def jarList = []
+
     // Find jars and extract them to a temp directory so they can be read for inner jar files
-    void getJarName(String tarPath, String jarPath) {
+    void getJarName(String tarPath, String jarPath, String jarDir) {
 
         // Test for jar
         String patternString = "^.*\\.(jar)\$"
@@ -27,7 +28,7 @@ class JarFileOperations {
             // Strip jar extension form jar name
             stripJarExt(jarPath)
 
-            // Extract the jar to temproary directory
+            // Extract the jar to temporary directory
             extractJar(tarPath, jarPath, jarDir)
         }
     }
@@ -100,7 +101,7 @@ class JarFileOperations {
 
         // Parse the jar name without the file extension
         String withoutJarEx = jarPath.substring(jarPath.lastIndexOf("/") + 1, jarPath.indexOf("."))
-
+        println "Jar name: " + withoutJarEx
         // Test if the jar is a third party jar
         thirdPartyJarTest(withoutJarEx)
     }
@@ -117,6 +118,7 @@ class JarFileOperations {
         // If jar third party pass it to the jar array
         if (matches == true) {
 
+            println "3rd party jar: " + jar
             // Add jar name to jar array
             addToJarArray(jar)
         }
@@ -124,9 +126,10 @@ class JarFileOperations {
 
     // Add jar name to jar array
     void addToJarArray(String jarPath) {
-
+        println "JARLIST:"
         // Add jar name to jar array
         if (!jarList.contains(jarPath)) {
+            println jarPath
             jarList << jarPath
         }
     }

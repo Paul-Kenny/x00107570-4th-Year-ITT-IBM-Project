@@ -39,9 +39,8 @@ class DockerImageScan {
         // Read all directories in untar
         readTempTar(untarDir)
 
-        // Temporary directories object
+        // Remove temporary directory
         def rmDir = new DirectoryOperations()
-
         rmDir.removeDir(tarballDir)
 
         // Query the database
