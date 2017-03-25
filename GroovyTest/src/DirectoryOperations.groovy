@@ -25,6 +25,8 @@ class DirectoryOperations {
         String removeTemp = "rm -rf " + tempDir
 
         // Execute delete temporary directory command
-        removeTemp.execute()
+        removeTemp.execute().waitFor()
+
+        println tempDir + " removed"
     }
 }

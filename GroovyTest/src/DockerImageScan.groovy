@@ -18,12 +18,12 @@ class DockerImageScan {
     DockerImageScan(String imageNameIn, String tempDir) {
 
         // Temporary directories object
-        def mkdir = new DirectoryOperations()
+        def mkDir = new DirectoryOperations()
 
         // Make temporary directories
-        tarballDir = mkdir.makeDir(tempDir)
-        untarDir = mkdir.makeDir(tarballDir)
-        jarDir = mkdir.makeDir(untarDir)
+        tarballDir = mkDir.makeDir(tempDir)
+        untarDir = mkDir.makeDir(tarballDir)
+        jarDir = mkDir.makeDir(untarDir)
         imageName = imageNameIn
     }
 
@@ -39,11 +39,10 @@ class DockerImageScan {
         // Read all directories in untar
         readTempTar(untarDir)
 
-        // Create delete temporary directory command
-        String removeTemp = "rm -rf " + tarballDir
+        // Temporary directories object
+        def rmDir = new DirectoryOperations()
 
-        // Execute delete temporary directory command
-        removeTemp.execute()
+        rmDir.removeDir(tarballDir)
 
         // Query the database
         queryDB()
