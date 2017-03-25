@@ -10,5 +10,6 @@
     <orderEntry type="library" name="groovy-2.4.8" level="application" />
     <orderEntry type="library" name="commons-compress-1.4.1" level="project" />
     <orderEntry type="library" name="commons-io-2.4" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.41-bin" level="project" />
   </component>
 </module>
