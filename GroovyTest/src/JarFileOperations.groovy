@@ -11,39 +11,46 @@ import java.util.regex.Pattern
  */
 class JarFileOperations {
 
-    def jarList = []
+    String tarPath, individualFiles, jarDir
+    //def jarList = []
+
+    JarFileOperations(String tarPath, String individualFiles, String jarDir){
+        this.tarPath = tarPath
+        this.individualFiles = individualFiles
+        this.jarDir = jarDir
+    }
 
     // Find jars and extract them to a temp directory so they can be read for inner jar files
-    void getJarName(String tarPath, String jarPath, String jarDir) {
+    void getJarName() {
 
         // Test for jar
         String patternString = "^.*\\.(jar)\$"
         Pattern pattern = Pattern.compile(patternString)
-        Matcher matcher = pattern.matcher(jarPath)
+        Matcher matcher = pattern.matcher(individualFiles)
         boolean matches = matcher.matches()
 
         // Search tarball for jars
         if (matches == true) {
 
             // Strip jar extension form jar name
-            stripJarExt(jarPath)
+            stripJarExt(individualFiles)
 
             // Extract the jar to temporary directory
-            extractJar(tarPath, jarPath, jarDir)
+            extractJar(tarPath, individualFiles, jarDir)
         }
     }
 
     // Extract jar from tarball
-    void extractJar(String tarPath, String jarPath, String destPath) {
+    void extractJar(String tarPath, String individualFiles, String destPath) {
 
         // Create jar extract bash command
-        String extractCommand = "tar -xf " + tarPath + " -C " + destPath + " " + jarPath
+        String extractCommand = "tar -xf " + tarPath + " -C " + destPath + " " + individualFiles
 
         // Execute jar extract bash command
         extractCommand.execute().waitFor()
 
         // Concatenate full jar path
-        String jarRead = destPath + jarPath
+        String jarRead = destPath + individualFiles
 
         // Check to see if the jar path is a symbolic link
         Path SymlinkCheck = Paths.get(jarRead)
@@ -90,7 +97,6 @@ class JarFileOperations {
 
         // Search jar file for inner jars
         if (matches == true) {
-
             // Strip jar extension form jar name
             stripJarExt(jarPath)
         }
@@ -103,34 +109,34 @@ class JarFileOperations {
         String withoutJarEx = jarPath.substring(jarPath.lastIndexOf("/") + 1, jarPath.indexOf("."))
         println "Jar name: " + withoutJarEx
         // Test if the jar is a third party jar
-        thirdPartyJarTest(withoutJarEx)
+        //thirdPartyJarTest(withoutJarEx)
+        addToJarArray(withoutJarEx)
     }
 
-    // Test if jar is third party jar
-    void thirdPartyJarTest(String jar) {
+    /* // Test if jar is third party jar
+     void thirdPartyJarTest(String jar) {
 
-        // Regex to identify if jar name matches third party signature
-        String patternString = "^([a-z]*-[a-z0-9\\\\.]*){2}\$"
-        Pattern pattern = Pattern.compile(patternString)
-        Matcher matcher = pattern.matcher(jar)
-        boolean matches = matcher.matches()
+         // Regex to identify if jar name matches third party signature
+         String patternString = "^([a-z]*-[a-z0-9\\\\.]*){2}\$"
+         Pattern pattern = Pattern.compile(patternString)
+         Matcher matcher = pattern.matcher(jar)
+         boolean matches = matcher.matches()
 
-        // If jar third party pass it to the jar array
-        if (matches == true) {
+         // If jar third party pass it to the jar array
+         if (matches == true) {
 
-            println "3rd party jar: " + jar
-            // Add jar name to jar array
-            addToJarArray(jar)
-        }
-    }
+             println "3rd party jar: " + jar
+             // Add jar name to jar array
+             addToJarArray(jar)
+         }
+     }*/
 
     // Add jar name to jar array
-    void addToJarArray(String jarPath) {
-        println "JARLIST:"
+    void addToJarArray(String jarName) {
         // Add jar name to jar array
-        if (!jarList.contains(jarPath)) {
-            println jarPath
-            jarList << jarPath
+        if (!ScanImage.jarList.contains(jarName)) {
+            ScanImage.jarList << jarName
         }
     }
+
 }

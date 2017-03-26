@@ -9,18 +9,28 @@ import java.util.regex.Pattern
  */
 class TarballOperations {
 
-    String jarDir
+    String tarballDir, untarDir, jarDir, imageName, tarPath, individualFiles
+    def tarballArray = []
 
-    TarballOperations(String jarDir){
+    TarballOperations(String tarballDir, String untarDir, String jarDir, String imageName){
+        this.tarballDir = tarballDir
+        this.untarDir = untarDir
+        this.jarDir = jarDir
+        this.imageName = imageName
+    }
+
+    TarballOperations(String tarPath, String individualFiles, String jarDir){
+        this.tarPath = tarPath
+        this.individualFiles = individualFiles
         this.jarDir = jarDir
     }
 
     // Save the docker image as a tarball
-    void dockerTar(String imageName, String tempDirPath) {
+    void dockerTar() {
 
         println "Creating tarball from " + imageName + " image..."
         // Create docker save command
-        String dockerSave = 'docker save ' + imageName + ' --output ' + tempDirPath + "/" + imageName + '.tar'
+        String dockerSave = 'docker save ' + imageName + ' --output ' + tarballDir + "/" + imageName + '.tar'
         def proc = dockerSave.execute()
         def out = new StringBuilder(), err = new StringBuilder()
         proc.consumeProcessOutput(out, err)
@@ -28,7 +38,7 @@ class TarballOperations {
     }
 
     // Unarchive docker tarball
-    void untarImage(String imageName, String tarballDir, String untarDir) {
+    void untarImage() {
 
         println "Un-archiving " + imageName + " image..."
         //Create tarball unarchive command
@@ -40,14 +50,14 @@ class TarballOperations {
     }
 
     // List files in unarchived directory
-    void readTempTar(String tempDir) {
+    void readTempTar() {
 
         println "Searching un-archived image for tarball layers..."
         // Create directory content list
         def list = []
 
         // Read directory contents
-        def dir = new File(tempDir)
+        def dir = new File(untarDir)
 
         // Add directory contents to the list
         dir.eachFileRecurse(FileType.FILES) {
@@ -89,15 +99,23 @@ class TarballOperations {
         // Read every entry in tarball
         while ((entry = myTarFile.getNextTarEntry()) != null) {
 
-            def jarFile = new JarFileOperations()
+            //def jarFile = new JarFileOperations()
             // Get the name of the file
             individualFiles = entry.getName()
 
             // Get the name of all jars in tarball
-            jarFile.getJarName(tarPath, individualFiles, jarDir)
+            //jarFile.getJarName(tarPath, individualFiles, jarDir)
+            //println "TarPath: " + tarPath
+            //println "Indiv Files: " + individualFiles
+            def tempTarball = new TarballOperations(tarPath, individualFiles, jarDir)
+            tarballArray << tempTarball
         }
         // Close TarAchiveInputStream
         myTarFile.close()
+    }
+
+    TarballOperations [] getTarballArray(){
+        return tarballArray
     }
 
 

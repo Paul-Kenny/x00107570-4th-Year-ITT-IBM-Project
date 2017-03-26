@@ -3,9 +3,9 @@
  */
 
 //Standard image scan
-imageScan = new DockerImageScan('java', '/home/Paul/')
-imageScan.scanImage()
+//imageScan = new DockerImageScan('java', '/home/Paul/')
+//imageScan.scanImage()
 
 //New image scan
-//imageScan = new ScanImage('java', '/home/Paul/')
-//imageScan.scanDockerImage()
+imageScan = new ScanImage('java', '/home/Paul/')
+imageScan.scanDockerImage()
