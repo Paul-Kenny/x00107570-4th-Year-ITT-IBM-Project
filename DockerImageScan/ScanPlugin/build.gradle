@@ -8,6 +8,7 @@
 apply plugin: 'groovy'
 apply plugin: 'idea'
 apply plugin: 'maven'
+apply plugin: 'java'
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
@@ -20,10 +21,14 @@ dependencies {
     compile localGroovy()
 
     // https://mvnrepository.com/artifact/org.apache.commons/commons-compress
-    compile group: 'org.apache.commons', name: 'commons-compress', version: '1.4.1'
+    compile group: 'org.apache.commons', name: 'commons-compress', version: '1.13'
+
+    // https://mvnrepository.com/artifact/org.tukaani/xz
+    compile group: 'org.tukaani', name: 'xz', version: '1.6'
 
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.41'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+
 
 }
 
@@ -32,7 +37,7 @@ repositories {
     // Use 'jcenter' for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
-    mavenCentral()
+    //mavenCentral()
 }
 
 group='com.scanImage'
