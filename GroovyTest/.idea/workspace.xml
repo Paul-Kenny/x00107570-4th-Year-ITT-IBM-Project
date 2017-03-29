@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612f7aea-72f4-47a1-a805-ad61b663a33e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileHashes.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/Library.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/DBInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/DirectoryOperations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/JarFileOperations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ScanImage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/TarballOperations$_readTempTar_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/TarballOperations$_readTempTar_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/TarballOperations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/runScanImage$_apply_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/runScanImage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/ivy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/libs/runScanImage-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/poms/pom-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/resources/main/META-INF/gradle-plugins/scanImage.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar.md5" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar.sha1" afterPath="" />
@@ -26,9 +47,18 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom.md5" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom.sha1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" afterPath="" />
@@ -38,30 +68,18 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom.md5" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/maven-metadata.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/maven-metadata.xml.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/maven-metadata.xml.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/DirBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/TestClass$_readTempTar_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/TestClass$_readTempTar_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/TestClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ZipReader$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ZipReader.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ScanImage.class" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ScanImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/libs/runScanImage-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/libs/runScanImage-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ScanImage.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ScanImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.ipr" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iml" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build.gradle" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/ivy.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/ivy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/poms/pom-default.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/poms/pom-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/DBInterface.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/DBInterface.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.md5" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.sha1" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.sha1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/user/build.gradle" afterPath="$PROJECT_DIR$/../DockerImageScan/user/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -88,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DockerImageScan.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DockerImageScan.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="144">
               <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
@@ -103,7 +121,7 @@
       <file leaf-file-name="TarballOperations.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TarballOperations.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
+            <state relative-caret-position="1638">
               <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -128,7 +146,7 @@
       <file leaf-file-name="JarFileOperations.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
+            <state relative-caret-position="1944">
               <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
@@ -148,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBInterface.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBInterface.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,10 +207,10 @@
         <option value="$PROJECT_DIR$/src/TarballOperations.groovy" />
         <option value="$PROJECT_DIR$/src/JarFileOperations.groovy" />
         <option value="$PROJECT_DIR$/src/DirectoryOperations.groovy" />
-        <option value="$PROJECT_DIR$/src/DBInterface.groovy" />
         <option value="$PROJECT_DIR$/src/main.groovy" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/ScanImage.groovy" />
+        <option value="$PROJECT_DIR$/src/DBInterface.groovy" />
       </list>
     </option>
   </component>
@@ -217,9 +235,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,6 +289,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,23 +546,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="923" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15898058" sideWeight="0.24210526" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123786405" sideWeight="0.24791667" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15956151" sideWeight="0.75789475" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.123786405" sideWeight="0.75208336" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33020833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -555,7 +574,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18149039" sideWeight="0.5678161" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -754,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/src/ZipReader.groovy" />
     <entry file="file://$PROJECT_DIR$/src/TarballOperations.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
+        <state relative-caret-position="1638">
           <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -765,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
+        <state relative-caret-position="1944">
           <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
@@ -782,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html" />
     <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
       <provider selected="true" editor-type-id="text-editor">
@@ -797,6 +807,16 @@
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
             <element signature="e#36#74#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,13 +829,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
+    <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

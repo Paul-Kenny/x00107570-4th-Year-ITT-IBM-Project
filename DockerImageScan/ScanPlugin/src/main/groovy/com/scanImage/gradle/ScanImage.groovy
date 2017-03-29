@@ -25,24 +25,24 @@ class ScanImage {
     // Start the scan process
     void scanDockerImage() {
 
-        def tarball = new TarballOperations(tarballDir, untarDir, jarDir, imageName)
+        //def tarball = new TarballOperations(tarballDir, untarDir, jarDir, imageName)
         // Save the docker image tarball to the tarballDir
-        tarball.dockerTar()
+        //tarball.dockerTar()
 
         // Unarchive the image tarball untarDir
-        tarball.untarImage()
+        //tarball.untarImage()
 
         // Read all directories in untar
-        tarball.readTempTar()
+       // tarball.readTempTar()
 
         // Get tarball array
-        tarballArray = tarball.getTarballArray()
+       // tarballArray = tarball.getTarballArray()
 
         // Get jar files in tarball
-        for (TarballOperations item : tarballArray) {
-            def jarFile = new JarFileOperations(item.tarPath, item.individualFiles, item.jarDir)
-            jarFile.getJarName()
-        }
+       // for (TarballOperations item : tarballArray) {
+          //  def jarFile = new JarFileOperations(item.tarPath, item.individualFiles, item.jarDir)
+           // jarFile.getJarName()
+      //  }
 
         // Remove temporary directory
         def rmDir = new DirectoryOperations()
@@ -52,8 +52,8 @@ class ScanImage {
         // Query the database
         def connection = new DBInterface()
         connection.connect()
-        connection.queryDB(jarList)
-        connection.closeDB()
+        //connection.queryDB(jarList)
+        //connection.closeDB()
 
     }
 

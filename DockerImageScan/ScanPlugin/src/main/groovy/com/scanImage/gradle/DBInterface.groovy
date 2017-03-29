@@ -1,9 +1,6 @@
 package com.scanImage.gradle
 
 /**
- * Created by Paul on 3/27/17.
- */
-/**
  * Created by Paul on 3/14/17.
  */
 import java.sql.*
@@ -19,9 +16,14 @@ class DBInterface {
             // Create database connection
             Class.forName("com.mysql.jdbc.Driver")
             conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul", "paul", "paulk990099")
+            //conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul" + "user=paul&password=paulk990099")
+
             println("Connected to DB")
-        } catch (SQLException e) {
+        } catch (SQLException ex) {
             println "No connection found!"
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
         }
     }
 
@@ -81,7 +83,3 @@ class DBInterface {
         }
     }
 }
-
-
-
-

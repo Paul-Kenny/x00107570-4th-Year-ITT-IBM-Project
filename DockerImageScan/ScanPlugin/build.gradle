@@ -10,6 +10,11 @@ apply plugin: 'idea'
 apply plugin: 'maven'
 apply plugin: 'java'
 
+// In this section you declare where to find the dependencies of your project
+repositories {
+    mavenCentral()
+}
+
 // In this section you declare the dependencies for your production and test code
 dependencies {
 
@@ -18,7 +23,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile gradleApi()
-    compile localGroovy()
+
+    // https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.7'
 
     // https://mvnrepository.com/artifact/org.apache.commons/commons-compress
     compile group: 'org.apache.commons', name: 'commons-compress', version: '1.13'
@@ -27,17 +34,7 @@ dependencies {
     compile group: 'org.tukaani', name: 'xz', version: '1.6'
 
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
-
-
-}
-
-// In this section you declare where to find the dependencies of your project
-repositories {
-    // Use 'jcenter' for resolving your dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    jcenter()
-    //mavenCentral()
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.41'
 }
 
 group='com.scanImage'
