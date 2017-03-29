@@ -10,6 +10,7 @@ apply plugin: 'idea'
 apply plugin: 'maven'
 apply plugin: 'java'
 
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     mavenCentral()
@@ -34,8 +35,14 @@ dependencies {
     compile group: 'org.tukaani', name: 'xz', version: '1.6'
 
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.41'
+    //compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.41'
+
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    //compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+
+    runtime 'mysql:mysql-connector-java:6.0.6'
 }
+
 
 group='com.scanImage'
 version = '1.0-SNAPSHOT'
@@ -47,5 +54,6 @@ uploadArchives {
         }
     }
 }
+
 
 

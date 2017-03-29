@@ -1,0 +1,82 @@
+
+@media (max-width: 1000px){
+    .collapsible{
+        margin-left: 20px;
+    } 
+    .gpa h2{ 
+    font-size: 20px;
+    }
+    
+    #cv-projects .row1{
+        display: none;
+    }
+    #cv-projects .row2{
+        display: block;
+    }
+    
+}
+
+
+@media (max-width: 900px){
+    #cv-menu.navbar-default {
+	background-color: #203E62;
+	}
+    .content {
+	   padding: 40% 0 0;
+	}  
+}
+
+
+@media (max-width: 780px){
+    .collapsible{
+        margin-left: 0px;
+    } 
+    .gpa{
+        width: auto;
+        margin-left: 0px;
+    }
+    .gpa h2{ 
+    font-size: 25px;
+    }
+    .circle {
+        margin: 6px;
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .circle p {
+      font-size: 17px;
+      line-height:100px;
+    }
+    }
+
+@media (max-width: 603px){
+#cv-experience li.pull-right, #cv-experience li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+}
+label{
+    float: none !important
+}
+.pull-left.fnav,
+.pull-right.fnav {
+    float: none !important;
+    text-align: center;
+}
+
+.hover-bg .hover-text {
+    padding: 12% 10%;
+}
+    
+}
+
+
+@media (max-width: 360px){
+.hover-bg .hover-text {
+    padding: 22% 10%;
+}
+}

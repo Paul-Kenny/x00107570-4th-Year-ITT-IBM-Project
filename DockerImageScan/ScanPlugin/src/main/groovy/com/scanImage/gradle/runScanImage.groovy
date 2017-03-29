@@ -10,4 +10,5 @@ class runScanImage implements Plugin<Project> {
             imageScan.scanDockerImage()
         }
     }
+
 }

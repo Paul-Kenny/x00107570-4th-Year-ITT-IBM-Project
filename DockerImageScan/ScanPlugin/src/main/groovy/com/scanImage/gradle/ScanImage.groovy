@@ -1,5 +1,7 @@
 package com.scanImage.gradle
 
+import java.awt.Desktop
+
 /**
  * Created by Paul on 3/27/17.
  */
@@ -50,10 +52,14 @@ class ScanImage {
 
 
         // Query the database
-        def connection = new DBInterface()
-        connection.connect()
+        //def connection = new DBInterface()
+        //connection.connect()
         //connection.queryDB(jarList)
         //connection.closeDB()
+
+        def url = "/home/Paul/Desktop/x00107570-4th-Year-ITT-IBM-Project/DockerImageScan/Report/HTML_Vul/index.html"
+        File htmlFile = new File(url)
+        Desktop.getDesktop().browse(htmlFile.toURI())
 
     }
 

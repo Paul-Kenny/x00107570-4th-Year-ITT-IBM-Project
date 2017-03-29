@@ -14,9 +14,10 @@ class DBInterface {
     void connect() {
         try {
             // Create database connection
-            Class.forName("com.mysql.jdbc.Driver")
-            conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul", "paul", "paulk990099")
-            //conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul" + "user=paul&password=paulk990099")
+            //java.sql.DriverManager.registerDriver(groovy.sql.Sql.classLoader.loadClass("com.mysql.cj.jdbc.Driver").newInstance())
+            //Class.forName("com.mysql.cj.jdbc.Driver").newInstance()
+            //conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul", "paul", "paulk990099")
+            conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul" + "user=paul&password=paulk990099")
 
             println("Connected to DB")
         } catch (SQLException ex) {
