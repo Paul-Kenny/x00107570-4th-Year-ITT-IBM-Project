@@ -2,97 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612f7aea-72f4-47a1-a805-ad61b663a33e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_5782818156565938591_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_6292272884338352304_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.jar.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom.md5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom.sha1" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ScanImage.class" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ScanImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/libs/runScanImage-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/libs/runScanImage-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/DBInterface.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/DBInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ScanImage.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ScanImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/ivy.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/ivy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/classes/LibraryTest.html" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/classes/LibraryTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/TEST-LibraryTest.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/TEST-LibraryTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.md5" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.sha1" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.sha1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/CVE.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/CVE.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DBInterface.groovy" afterPath="$PROJECT_DIR$/src/DBInterface.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CVE.groovy" afterPath="$PROJECT_DIR$/src/CVE.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Jar.groovy" afterPath="$PROJECT_DIR$/src/Jar.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScanImage.groovy" afterPath="$PROJECT_DIR$/src/ScanImage.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -122,8 +35,8 @@
       <file leaf-file-name="ScanImage.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="123">
+              <caret line="66" column="33" lean-forward="false" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
               <folding>
                 <element signature="e#36#74#0" expanded="false" />
               </folding>
@@ -134,8 +47,8 @@
       <file leaf-file-name="DBInterface.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+            <state relative-caret-position="198">
+              <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="91" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -144,8 +57,8 @@
       <file leaf-file-name="Jar.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -154,8 +67,8 @@
       <file leaf-file-name="CVE.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CVE.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="162">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -195,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/main.groovy" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/DBInterface.groovy" />
-        <option value="$PROJECT_DIR$/src/CVE.groovy" />
         <option value="$PROJECT_DIR$/src/Jar.groovy" />
+        <option value="$PROJECT_DIR$/src/CVE.groovy" />
         <option value="$PROJECT_DIR$/src/ScanImage.groovy" />
       </list>
     </option>
@@ -221,9 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,22 +170,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroovyTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroovyTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,7 +431,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="975" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -541,15 +440,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33105022" sideWeight="0.25729167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33105022" sideWeight="0.26354167" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33105022" sideWeight="0.7427083" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33105022" sideWeight="0.73645836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.098958336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31354168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -752,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,10 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#225#263#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,10 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-            <element signature="e#279#317#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,34 +683,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
+    <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        <state relative-caret-position="234">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CVE.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="162">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
+    <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="91" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="123">
+          <caret line="66" column="33" lean-forward="false" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
           <folding>
             <element signature="e#36#74#0" expanded="false" />
           </folding>

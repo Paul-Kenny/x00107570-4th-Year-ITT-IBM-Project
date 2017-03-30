@@ -56,14 +56,25 @@ class ScanImage {
         connection.queryDB(jarList)
         connection.closeDB()
 
+        println "JARLIST SIZE: " + vulList.size()
+
         // Create HTML from jar array
         for (Jar item : vulList) {
             println "####" + item.jarName
             println "####" + item.jarDesc
             println "####" + item.cveList.size()
             for(CVE x : item.cveList){
-                println "CVE JARNAME: " + x.jarName
-                println "CVE ID" + x.cveId
+                println "CVE ID: " + x.cveId
+                println "CVE Description: " + x.cveDesc
+                println "CVSS Score: " + x.cveScore
+                println "CVSS Flag: " + x.cvssFlag
+                println "Access Vector: " + x.accessVector
+                println "Authentication: " + x.auth
+                println "Impact: " + x.impactType
+                println "Vulnerability Type: " + x.vulType
+                println "CWE ID: " + x.cweId
+                println "CWE Url: " + x.cweUrl
+                println "NVD URL: " + x.nvdUrl
             }
         }
 

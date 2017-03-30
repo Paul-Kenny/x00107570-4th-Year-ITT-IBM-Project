@@ -25,8 +25,12 @@ class CVE {
         for (Jar item : ScanImage.vulList) {
             println "ITEM>JAR>NAME" + item.jarName
             println "CVE>JARNAME" + cve.jarName
-            if(item.jarName == cve.jarName){
+            if(item.jarName.equalsIgnoreCase(cve.jarName)){
+                println "Matches"
                 item.cveList.add(cve)
+            }
+            else{
+                println "No Match!!!"
             }
         }
     }

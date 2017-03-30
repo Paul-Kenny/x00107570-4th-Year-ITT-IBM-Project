@@ -4,7 +4,7 @@
 class Jar {
 
     String jarName, jarDesc
-    static cveList = []
+    def cveList = []
 
 
     Jar(String jarName, String jarDesc){
