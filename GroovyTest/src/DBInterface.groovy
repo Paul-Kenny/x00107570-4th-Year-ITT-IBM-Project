@@ -20,6 +20,36 @@ class DBInterface {
         }
     }
 
+    void queryDBForJar(List jarList) {
+        for (String item : jarList) {
+
+            println item
+
+            String query = "select * from Jar where Jar.JAR_NAME = '" + item + "'"
+
+            try {
+                stmt = conn.createStatement()
+                rs = stmt.executeQuery(query)
+
+                while (rs.next()) {
+                    String name = rs.getString("JAR_NAME")
+                    String jarDesc = rs.getString("JAR_DESC")
+
+                    println("Jar: " +
+                            "\nName: " + name +
+                            "\nDescription: " + jarDesc)
+
+                    // create jar object
+                    def jar = new Jar(name, jarDesc)
+                    ScanImage.vulList << jar
+                }
+            } catch (SQLException e) {
+
+            }
+        }
+    }
+
+
     void queryDB(List jarList) {
         for (String item : jarList) {
 
@@ -60,6 +90,10 @@ class DBInterface {
                             "\nCWE ID: " + cweId +
                             "\nCWE URL: " + cweURL +
                             "\nNVD URL: " + nvdURL + "\n")
+
+                    // create CVE object
+                    def cve = new CVE(name, id, cveDesc, cvssFlag, vector, auth, impact, vulType, cweURL, nvdURL, cvss, cweId)
+                    cve.addCVEToVulList(cve)
                 }
             } catch (SQLException e) {
 

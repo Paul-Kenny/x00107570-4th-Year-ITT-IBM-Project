@@ -8,6 +8,7 @@ class ScanImage {
     String tarballDir, untarDir, jarDir, imageName
     def tarballArray = []
     static jarList = []
+    static vulList = []
 
     ScanImage(String imageNameIn, String tempDir) {
 
@@ -51,8 +52,20 @@ class ScanImage {
         // Query the database
         def connection = new DBInterface()
         connection.connect()
+        connection.queryDBForJar(jarList)
         connection.queryDB(jarList)
         connection.closeDB()
+
+        // Create HTML from jar array
+        for (Jar item : vulList) {
+            println "####" + item.jarName
+            println "####" + item.jarDesc
+            println "####" + item.cveList.size()
+            for(CVE x : item.cveList){
+                println "CVE JARNAME: " + x.jarName
+                println "CVE ID" + x.cveId
+            }
+        }
 
     }
 
