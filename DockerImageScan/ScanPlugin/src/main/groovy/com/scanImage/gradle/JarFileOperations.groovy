@@ -95,7 +95,7 @@ class JarFileOperations {
     void getJarName(String jarPath) {
 
         // Test if a jar
-        String patternString = "^.*\\.(jar)\$"
+        String patternString = "^.*\\.(class)\$"
         Pattern pattern = Pattern.compile(patternString)
         Matcher matcher = pattern.matcher(jarPath)
         boolean matches = matcher.matches()

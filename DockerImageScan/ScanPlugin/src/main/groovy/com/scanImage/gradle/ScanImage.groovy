@@ -49,7 +49,7 @@ class ScanImage {
 
         // Remove temporary directory
         def rmDir = new DirectoryOperations()
-        //rmDir.removeDir(tarballDir)
+        rmDir.removeDir(tarballDir)
 
 
         // Query the database
@@ -58,14 +58,11 @@ class ScanImage {
         //connection.queryDB(jarList)
         //connection.closeDB()
 
-
-
-        /*
         // Launch security vulnerabilities report
-        def url = "../Report/HTML_Vul/index.html"
+        def url = "./Report/HTML_Vul_Simple/index.html"
         File htmlFile = new File(url)
         Desktop.getDesktop().browse(htmlFile.toURI())
-        */
+
 
     }
 
