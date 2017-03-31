@@ -6,7 +6,7 @@ import org.gradle.api.Plugin
 class runScanImage implements Plugin<Project> {
     void apply(Project target) {
         target.task('scan') << {
-            def imageScan = new ScanImage('java', '/home/Paul/')
+            def imageScan = new ScanImage('java')
             imageScan.scanDockerImage()
         }
     }

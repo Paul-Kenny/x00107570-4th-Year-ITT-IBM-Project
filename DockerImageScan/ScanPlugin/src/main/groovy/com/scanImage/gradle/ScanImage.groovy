@@ -9,16 +9,17 @@ import java.awt.Desktop
 class ScanImage {
 
     String tarballDir, untarDir, jarDir, imageName
+    final TEMP_DIR = "./TemporaryDirectories/"
     def tarballArray = []
     static jarList = []
 
-    ScanImage(String imageNameIn, String tempDir) {
+    ScanImage(String imageNameIn) {
 
         // Temporary directories object
         def mkDir = new DirectoryOperations()
 
         // Make temporary directories
-        tarballDir = mkDir.makeDir(tempDir)
+        tarballDir = mkDir.makeDir(TEMP_DIR)
         untarDir = mkDir.makeDir(tarballDir)
         jarDir = mkDir.makeDir(untarDir)
         imageName = imageNameIn
@@ -27,33 +28,33 @@ class ScanImage {
     // Start the scan process
     void scanDockerImage() {
 
-        //def tarball = new TarballOperations(tarballDir, untarDir, jarDir, imageName)
+        def tarball = new TarballOperations(tarballDir, untarDir, jarDir, imageName)
         // Save the docker image tarball to the tarballDir
-        //tarball.dockerTar()
+        tarball.dockerTar()
 
         // Unarchive the image tarball untarDir
-        //tarball.untarImage()
+        tarball.untarImage()
 
         // Read all directories in untar
-       // tarball.readTempTar()
+        tarball.readTempTar()
 
         // Get tarball array
-       // tarballArray = tarball.getTarballArray()
+        tarballArray = tarball.getTarballArray()
 
         // Get jar files in tarball
-       // for (TarballOperations item : tarballArray) {
-          //  def jarFile = new JarFileOperations(item.tarPath, item.individualFiles, item.jarDir)
-           // jarFile.getJarName()
-      //  }
+        for (TarballOperations item : tarballArray) {
+            def jarFile = new JarFileOperations(item.tarPath, item.individualFiles, item.jarDir)
+            jarFile.getJarName()
+        }
 
         // Remove temporary directory
         def rmDir = new DirectoryOperations()
-        rmDir.removeDir(tarballDir)
+        //rmDir.removeDir(tarballDir)
 
 
         // Query the database
-        def connection = new DBInterface()
-        connection.connect()
+        //def connection = new DBInterface()
+        //connection.connect()
         //connection.queryDB(jarList)
         //connection.closeDB()
 
