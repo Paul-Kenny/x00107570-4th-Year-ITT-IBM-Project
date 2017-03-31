@@ -15,16 +15,44 @@ class DBInterface {
         try {
             // Create database connection
             //java.sql.DriverManager.registerDriver(groovy.sql.Sql.classLoader.loadClass("com.mysql.cj.jdbc.Driver").newInstance())
-            //Class.forName("com.mysql.cj.jdbc.Driver").newInstance()
+            Class.forName("com.mysql.cj.jdbc.Driver")
             //conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul", "paul", "paulk990099")
             conn = DriverManager.getConnection("jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul" + "user=paul&password=paulk990099")
-
             println("Connected to DB")
         } catch (SQLException ex) {
             println "No connection found!"
             System.out.println("SQLException: " + ex.getMessage());
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
+        }
+    }
+
+    void queryDBForJar(List jarList) {
+        for (String item : jarList) {
+
+            println item
+
+            String query = "select * from Jar where Jar.JAR_NAME = '" + item + "'"
+
+            try {
+                stmt = conn.createStatement()
+                rs = stmt.executeQuery(query)
+
+                while (rs.next()) {
+                    String name = rs.getString("JAR_NAME")
+                    String jarDesc = rs.getString("JAR_DESC")
+
+                    println("Jar: " +
+                            "\nName: " + name +
+                            "\nDescription: " + jarDesc)
+
+                    // create jar object
+                    def jar = new Jar(name, jarDesc)
+                    ScanImage.vulList << jar
+                }
+            } catch (SQLException e) {
+
+            }
         }
     }
 
@@ -68,6 +96,10 @@ class DBInterface {
                             "\nCWE ID: " + cweId +
                             "\nCWE URL: " + cweURL +
                             "\nNVD URL: " + nvdURL + "\n")
+
+                    // create CVE object
+                    def cve = new CVE(name, id, cveDesc, cvssFlag, vector, auth, impact, vulType, cweURL, nvdURL, cvss, cweId)
+                    cve.addCVEToVulList(cve)
                 }
             } catch (SQLException e) {
 

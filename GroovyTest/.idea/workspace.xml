@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612f7aea-72f4-47a1-a805-ad61b663a33e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/css/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/css/owl.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/images/Proj-2017_X00107570.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/images/Untitled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/images/large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/images/small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/js/SmoothScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/js/jquery.1.11.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/js/jquery.isotope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/Report/HTML_Vul/js/owl.carousel.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/CVE.groovy" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws___jb_tmp___" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_4383158678310007746_tmp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/DBInterface.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/DBInterface.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/JarFileOperations.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/JarFileOperations.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Jar.groovy" afterPath="$PROJECT_DIR$/src/Jar.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +38,8 @@
       <file leaf-file-name="ScanImage.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -61,8 +48,28 @@
       <file leaf-file-name="DBInterface.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectoryOperations.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DirectoryOperations.groovy">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DockerImageScan.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -71,8 +78,18 @@
       <file leaf-file-name="Jar.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JarFileOperations.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -81,8 +98,8 @@
       <file leaf-file-name="CVE.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CVE.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="18">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -122,16 +139,16 @@
         <option value="$PROJECT_DIR$/src/main.groovy" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/DBInterface.groovy" />
-        <option value="$PROJECT_DIR$/src/Jar.groovy" />
         <option value="$PROJECT_DIR$/src/CVE.groovy" />
         <option value="$PROJECT_DIR$/src/ScanImage.groovy" />
+        <option value="$PROJECT_DIR$/src/Jar.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="950" />
-    <option name="width" value="880" />
-    <option name="height" value="903" />
+    <option name="y" value="-3" />
+    <option name="width" value="1920" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,9 +166,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -445,7 +462,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="950" y="0" width="880" height="903" extended-state="4" />
+    <frame x="0" y="-3" width="1920" height="982" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,7 +471,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33084577" sideWeight="0.26354167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.26354167" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33105022" sideWeight="0.73645836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -462,7 +479,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31136364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -662,39 +679,10 @@
     <entry file="file://$PROJECT_DIR$/src/TestClass.groovy" />
     <entry file="file://$PROJECT_DIR$/src/ZipReader.groovy" />
     <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TarballOperations.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DirectoryOperations.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,26 +694,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
+    <entry file="file://$PROJECT_DIR$/src/DirectoryOperations.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CVE.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="18">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

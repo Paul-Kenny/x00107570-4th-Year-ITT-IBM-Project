@@ -12,6 +12,7 @@ class ScanImage {
     final TEMP_DIR = "./TemporaryDirectories/"
     def tarballArray = []
     static jarList = []
+    static vulList = []
 
     ScanImage(String imageNameIn) {
 
@@ -55,8 +56,31 @@ class ScanImage {
         // Query the database
         //def connection = new DBInterface()
         //connection.connect()
+        //connection.queryDBForJar(jarList)
         //connection.queryDB(jarList)
         //connection.closeDB()
+
+        println "JARLIST SIZE: " + vulList.size()
+
+        // Create HTML from jar array
+        for (Jar item : vulList) {
+            println "####" + item.jarName
+            println "####" + item.jarDesc
+            println "####" + item.cveList.size()
+            for(CVE x : item.cveList){
+                println "CVE ID: " + x.cveId
+                println "CVE Description: " + x.cveDesc
+                println "CVSS Score: " + x.cveScore
+                println "CVSS Flag: " + x.cvssFlag
+                println "Access Vector: " + x.accessVector
+                println "Authentication: " + x.auth
+                println "Impact: " + x.impactType
+                println "Vulnerability Type: " + x.vulType
+                println "CWE ID: " + x.cweId
+                println "CWE Url: " + x.cweUrl
+                println "NVD URL: " + x.nvdUrl
+            }
+        }
 
         // Launch security vulnerabilities report
         def url = "./Report/HTML_Vul_Simple/index.html"

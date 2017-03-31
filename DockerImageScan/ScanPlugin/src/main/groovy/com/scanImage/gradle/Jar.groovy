@@ -1,5 +1,7 @@
+package com.scanImage.gradle
+
 /**
- * Created by Paul on 3/30/17.
+ * Created by Paul on 3/31/17.
  */
 class Jar {
 

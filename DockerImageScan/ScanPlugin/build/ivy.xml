@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="com.scanImage" module="runScanImage" revision="1.0-SNAPSHOT" status="integration" default="true" publication="20170331115116"/>
+  <info organisation="com.scanImage" module="runScanImage" revision="1.0-SNAPSHOT" status="integration" default="true" publication="20170331125011"/>
   <configurations>
     <conf name="archives" visibility="public"/>
     <conf name="compile" visibility="private"/>
