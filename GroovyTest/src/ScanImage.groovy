@@ -1,4 +1,6 @@
+import java.awt.Desktop
 import java.lang.annotation.Target
+import java.text.SimpleDateFormat
 
 /**
  * Created by Paul on 3/25/17.
@@ -56,7 +58,7 @@ class ScanImage {
         connection.queryDB(jarList)
         connection.closeDB()
 
-        println "JARLIST SIZE: " + vulList.size()
+       // println "JARLIST SIZE: " + vulList.size()
 
         // Create HTML from jar array
         for (Jar item : vulList) {
@@ -77,6 +79,19 @@ class ScanImage {
                 println "NVD URL: " + x.nvdUrl
             }
         }
+
+        ReportBuilder report = new ReportBuilder()
+        def html = report.build()
+
+        def reportName = "/home/Paul/Report/HTML_Vul_Simple/" + imageName + "(" + new SimpleDateFormat("dd-MM-yyyy-HH:mm").format(new Date()) + ").html"
+        def index = new File(reportName)
+        index << html
+
+        // Launch security vulnerabilities report
+
+        def url = reportName
+        File htmlFile = new File(url)
+        Desktop.getDesktop().browse(htmlFile.toURI())
 
     }
 

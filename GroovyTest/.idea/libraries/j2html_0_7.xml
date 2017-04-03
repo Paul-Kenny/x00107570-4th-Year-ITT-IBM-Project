@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j2html-0.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/j2html-0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
