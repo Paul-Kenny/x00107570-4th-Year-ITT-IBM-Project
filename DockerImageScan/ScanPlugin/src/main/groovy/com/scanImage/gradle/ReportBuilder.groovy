@@ -43,123 +43,126 @@ class ReportBuilder {
                             strong('Security Vulnerabilities')
                         }
 
+                        if(ScanImage.vulList.size() != 0) {
+                            // Dynamic content start
+                            for (Jar jar : ScanImage.vulList) {
 
-                        // Dynamic content start
-                        for (Jar jar : ScanImage.vulList) {
-
-                            div('class': 'jar') {
-                                div('id': 'accordianmenu') {
-                                    ul() {
-                                        li() {
-                                            p('class': 'jar_name') {
-                                                strong(jar.jarName)
-                                            }
-                                            ul() {
-                                                li() {
-                                                    a(jar.jarDesc)
+                                div('class': 'jar') {
+                                    div('id': 'accordianmenu') {
+                                        ul() {
+                                            li() {
+                                                p('class': 'jar_name') {
+                                                    strong(jar.jarName)
+                                                }
+                                                ul() {
+                                                    li() {
+                                                        a(jar.jarDesc)
+                                                    }
                                                 }
                                             }
                                         }
                                     }
-                                }
 
-                                for(CVE cve : jar.cveList) {
-                                    div('id': 'accordianmenu') {
-                                        ul() {
-                                            li() {
-                                                p() {
-                                                    strong(cve.cveId)
-                                                }
-                                                ul() {
+                                    for (CVE cve : jar.cveList) {
+                                        div('id': 'accordianmenu') {
+                                            ul() {
+                                                li() {
+                                                    p() {
+                                                        strong(cve.cveId)
+                                                    }
+                                                    ul() {
 
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('CVE ID: ')
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('CVE ID: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a('href': cve.nvdUrl, 'target': '_blank', cve.cveId)
+                                                            }
                                                         }
-                                                        span('class': 'result') {
-                                                            a('href': cve.nvdUrl, 'target': '_blank', cve.cveId)
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('CVE Description: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a(cve.cveDesc)
+                                                            }
                                                         }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('CVE Description: ')
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('CVSS Score: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a(cve.cveScore)
+                                                            }
                                                         }
-                                                        span('class': 'result') {
-                                                            a(cve.cveDesc)
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('CVSS Flag: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a(cve.cvssFlag)
+                                                            }
                                                         }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('CVSS Score: ')
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('Access Vector: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a(cve.accessVector)
+                                                            }
                                                         }
-                                                        span('class': 'result') {
-                                                            a(cve.cveScore)
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('Authentication: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a(cve.auth)
+                                                            }
                                                         }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('CVSS Flag: ')
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('Impact Type: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a(cve.impactType)
+                                                            }
                                                         }
-                                                        span('class': 'result') {
-                                                            a(cve.cvssFlag)
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('Vulnerability Type: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a(cve.vulType)
+                                                            }
                                                         }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('Access Vector: ')
+                                                        li() {
+                                                            span('class': 'metric') {
+                                                                a('CWE ID: ')
+                                                            }
+                                                            span('class': 'result') {
+                                                                a('href': cve.cweUrl, 'target': '_blank', cve.cweId)
+                                                            }
                                                         }
-                                                        span('class': 'result') {
-                                                            a(cve.accessVector)
-                                                        }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('Authentication: ')
-                                                        }
-                                                        span('class': 'result') {
-                                                            a(cve.auth)
-                                                        }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('Impact Type: ')
-                                                        }
-                                                        span('class': 'result') {
-                                                            a(cve.impactType)
-                                                        }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('Vulnerability Type: ')
-                                                        }
-                                                        span('class': 'result') {
-                                                            a(cve.vulType)
-                                                        }
-                                                    }
-                                                    li() {
-                                                        span('class': 'metric') {
-                                                            a('CWE ID: ')
-                                                        }
-                                                        span('class': 'result') {
-                                                            a('href': cve.cweUrl, 'target': '_blank', cve.cweId)
-                                                        }
-                                                    }
 
 
+                                                    }
                                                 }
                                             }
-                                        }
-                                    }// CVE End
-                                }
+                                        }// CVE End
+                                    }
 
-                            }// Jar end
+                                }// Jar end
+                            } // Dynamic content end
+                        }
+                        else{
+                            h2(){
+                                strong('No Security Vulnerabilities Found!!')
+                            }
                         }
 
 
 
-
-
-                        // Dynamic content end
                     }
                 }
             }
