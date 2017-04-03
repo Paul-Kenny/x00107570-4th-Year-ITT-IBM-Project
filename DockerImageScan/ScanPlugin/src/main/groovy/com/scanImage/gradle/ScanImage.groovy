@@ -1,6 +1,7 @@
 package com.scanImage.gradle
 
 import java.awt.Desktop
+import java.text.SimpleDateFormat
 
 /**
  * Created by Paul on 3/27/17.
@@ -82,8 +83,17 @@ class ScanImage {
             }
         }
 
+        // Create the report markup
+        ReportBuilder report = new ReportBuilder()
+        def html = report.build()
+
+        // Add html markup to the output report
+        def reportName = "./Report/HTML_Vul_Simple/" + imageName + "(" + new SimpleDateFormat("dd-MM-yyyy-HH:mm").format(new Date()) + ").html"
+        def index = new File(reportName)
+        index << html
+
         // Launch security vulnerabilities report
-        def url = "./Report/HTML_Vul_Simple/index.html"
+        def url = reportName
         File htmlFile = new File(url)
         Desktop.getDesktop().browse(htmlFile.toURI())
 

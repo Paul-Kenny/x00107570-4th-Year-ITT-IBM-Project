@@ -11,7 +11,3 @@ buildscript {
     }
 }
 apply plugin: 'scanImage'
-
-agrs {
-    image: 'java'
-}
