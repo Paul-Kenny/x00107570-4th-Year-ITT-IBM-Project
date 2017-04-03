@@ -44,24 +44,46 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_4383158678310007746_tmp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_7103413302445750714_tmp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_7426741910854096402_tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12.class" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10.class" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8.class" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder.class" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/libs/runScanImage-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/libs/runScanImage-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/binary/results.bin" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16$_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure31.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure36.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure37.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure38.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure39.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure41.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure42.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure43.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure44.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure45.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure46.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30$_closure47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30$_closure48.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/ivy.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/ivy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/classes/LibraryTest.html" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/classes/LibraryTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/reports/tests/test/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/TEST-LibraryTest.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/test-results/test/TEST-LibraryTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ReportBuilder.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ReportBuilder.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReportBuilder.groovy" afterPath="$PROJECT_DIR$/src/ReportBuilder.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,8 +112,8 @@
       <file leaf-file-name="ScanImage.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+            <state relative-caret-position="1620">
+              <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -102,8 +124,8 @@
       <file leaf-file-name="DBInterface.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+            <state relative-caret-position="1422">
+              <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -112,8 +134,8 @@
       <file leaf-file-name="ReportBuilder.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReportBuilder.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="160" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -245,8 +267,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,7 +325,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DockerImageScan/ScanPlugin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -814,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        <state relative-caret-position="1422">
+          <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -830,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        <state relative-caret-position="1620">
+          <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -840,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReportBuilder.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="160" selection-end-column="25" />
+        <state relative-caret-position="270">
+          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
