@@ -7,10 +7,13 @@ import groovy.xml.MarkupBuilder
 
 class ReportBuilder {
 
+    // Build the HTML vulnerabilities report
     def build(){
+
         StringWriter writer = new StringWriter()
         def build = new MarkupBuilder(writer)
-        build.html{
+
+        build.html{ // Static markup start
             head{
                 meta('charset':'utf-8')
                 meta('name':'viewport', 'content':'width=device-width, initial-scale=1')
@@ -42,9 +45,10 @@ class ReportBuilder {
                         h2(){
                             strong('Security Vulnerabilities')
                         }
+                        // Static markup end
 
-                        if(ScanImage.vulList.size() != 0) {
-                            // Dynamic content start
+                        if(ScanImage.vulList.size() != 0) { // Dynamic markup start
+
                             for (Jar jar : ScanImage.vulList) {
 
                                 div('class': 'jar') {
@@ -153,22 +157,20 @@ class ReportBuilder {
                                     }
 
                                 }// Jar end
-                            } // Dynamic content end
-                        }
-                        else{
+                            }
+                        } // Dynamic markup end
+
+                        else{ // Static markup start
                             h2(){
                                 strong('No Security Vulnerabilities Found!!')
                             }
                         }
 
-
-
                     }
                 }
             }
-        }
+        } // Static markup end
         return writer.toString()
     }
 
 }
-

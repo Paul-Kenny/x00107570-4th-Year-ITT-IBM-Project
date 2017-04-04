@@ -1,8 +1,5 @@
 package com.scanImage.gradle
 
-/**
- * Created by Paul on 3/27/17.
- */
 import org.apache.commons.compress.archivers.jar.JarArchiveEntry
 import org.apache.commons.compress.archivers.jar.JarArchiveInputStream
 import java.nio.file.Files
@@ -17,7 +14,6 @@ import java.util.regex.Pattern
 class JarFileOperations {
 
     String tarPath, individualFiles, jarDir
-    //def jarList = []
 
     JarFileOperations(String tarPath, String individualFiles, String jarDir){
         this.tarPath = tarPath
@@ -112,7 +108,7 @@ class JarFileOperations {
 
         // Parse the jar name without the file extension
         String withoutJarEx = jarPath.substring(jarPath.lastIndexOf("/") + 1, jarPath.indexOf("."))
-        println "Jar name: " + withoutJarEx
+        println "Jar found: " + withoutJarEx
         // Test if the jar is a third party jar
         //thirdPartyJarTest(withoutJarEx)
         addToJarArray(withoutJarEx)
