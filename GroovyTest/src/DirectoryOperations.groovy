@@ -6,7 +6,7 @@ class DirectoryOperations {
     // Make the temporary directory
     String makeDir(String tempDir) {
 
-        println "Creating temporary directories..."
+        println "Creating temporary directory " + tempDir
 
         // Create temporary tar directory path
         tempDir = tempDir + "Temp/"

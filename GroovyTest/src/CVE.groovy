@@ -3,8 +3,10 @@
  */
 class CVE {
 
+    // CVE metrics
     String jarName, cveId, cveDesc, cvssFlag, accessVector, auth, impactType, vulType, cweUrl, nvdUrl, cveScore, cweId
 
+    // CVE constructor
     CVE(String jarName, String cveId, String cveDesc, String cvssFlag, String accessVector, String auth, String impactType, String vulType, String cweUrl, String nvdUrl, String cveScore, String cweId){
         this.jarName = jarName
         this.cveId = cveId
@@ -20,17 +22,11 @@ class CVE {
         this.nvdUrl = nvdUrl
     }
 
-    // Make HTML block?
+    // Add the CVE to the vulnerabilities array
     void addCVEToVulList(CVE cve){
         for (Jar item : ScanImage.vulList) {
-            println "ITEM>JAR>NAME" + item.jarName
-            println "CVE>JARNAME" + cve.jarName
             if(item.jarName.equalsIgnoreCase(cve.jarName)){
-                println "Matches"
                 item.cveList.add(cve)
-            }
-            else{
-                println "No Match!!!"
             }
         }
     }

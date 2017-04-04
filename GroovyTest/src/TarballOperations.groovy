@@ -26,21 +26,27 @@ class TarballOperations {
     }
 
     // Save the docker image as a tarball
-    void dockerTar() {
+    def dockerTar() {
 
         println "Creating tarball from " + imageName + " image..."
+
         // Create docker save command
         String dockerSave = 'docker save ' + imageName + ' --output ' + tarballDir + "/" + imageName + '.tar'
         def proc = dockerSave.execute()
         def out = new StringBuilder(), err = new StringBuilder()
         proc.consumeProcessOutput(out, err)
         proc.waitFor()
+        def error = "$err"
+
+        // Return error report
+        return error
     }
 
     // Unarchive docker tarball
     void untarImage() {
 
         println "Un-archiving " + imageName + " image..."
+
         //Create tarball unarchive command
         String untarCommand = "tar -xvf " + tarballDir + imageName + ".tar -C " + untarDir
         def proc = untarCommand.execute()
@@ -99,14 +105,10 @@ class TarballOperations {
         // Read every entry in tarball
         while ((entry = myTarFile.getNextTarEntry()) != null) {
 
-            //def jarFile = new JarFileOperations()
             // Get the name of the file
             individualFiles = entry.getName()
 
             // Get the name of all jars in tarball
-            //jarFile.getJarName(tarPath, individualFiles, jarDir)
-            //println "TarPath: " + tarPath
-            //println "Indiv Files: " + individualFiles
             def tempTarball = new TarballOperations(tarPath, individualFiles, jarDir)
             tarballArray << tempTarball
         }

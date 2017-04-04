@@ -9,6 +9,7 @@ class DBInterface {
     Statement stmt = null
     ResultSet rs = null
 
+    // Make database connection
     void connect() {
         try {
             // Create database connection
@@ -17,14 +18,17 @@ class DBInterface {
             println("Connected to DB")
         } catch (SQLException e) {
             println "No connection found!"
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
         }
     }
 
+    // Query database for jar files found
     void queryDBForJar(List jarList) {
         for (String item : jarList) {
 
-            println item
-
+            // Query database for jar (name and description)
             String query = "select * from Jar where Jar.JAR_NAME = '" + item + "'"
 
             try {
@@ -34,10 +38,6 @@ class DBInterface {
                 while (rs.next()) {
                     String name = rs.getString("JAR_NAME")
                     String jarDesc = rs.getString("JAR_DESC")
-
-                    println("Jar: " +
-                            "\nName: " + name +
-                            "\nDescription: " + jarDesc)
 
                     // create jar object
                     def jar = new Jar(name, jarDesc)
@@ -49,12 +49,11 @@ class DBInterface {
         }
     }
 
-
-    void queryDB(List jarList) {
+    // Query database for jar file vulnerabilities
+    void queryDBForCVE(List jarList) {
         for (String item : jarList) {
 
-            println item
-
+            // Query database for CVE metrics
             String query = "select * from Jar, CVE where Jar.JAR_NAME = '" + item + "' and CVE.JAR_NAME_CVE = '" + item + "'"
 
             try {
@@ -76,21 +75,6 @@ class DBInterface {
                     String cweURL = rs.getString("CWE_LINK")
                     String nvdURL = rs.getString("NVD_LINK")
 
-                    println("Jar: " +
-                            "\nName: " + name +
-                            "\nDescription: " + jarDesc +
-                            "\nCVE id : " + id +
-                            "\nCVE Description: " + cveDesc +
-                            "\nCVSS Score: " + cvss +
-                            "\nCVSS Flag: " + cvssFlag +
-                            "\nVector: " + vector +
-                            "\nAuthentication: " + auth +
-                            "\nImpact: " + impact +
-                            "\nVulnerability Type: " + vulType +
-                            "\nCWE ID: " + cweId +
-                            "\nCWE URL: " + cweURL +
-                            "\nNVD URL: " + nvdURL + "\n")
-
                     // create CVE object
                     def cve = new CVE(name, id, cveDesc, cvssFlag, vector, auth, impact, vulType, cweURL, nvdURL, cvss, cweId)
                     cve.addCVEToVulList(cve)
@@ -101,6 +85,7 @@ class DBInterface {
         }
     }
 
+    // Close database connection
     void closeDB(){
         try{
             conn.close()
