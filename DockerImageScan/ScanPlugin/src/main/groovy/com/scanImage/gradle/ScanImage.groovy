@@ -70,12 +70,12 @@ class ScanImage {
             def rmDir = new DirectoryOperations()
             rmDir.removeDir(tarballDir)
 
-           /* // Query the database
+           // Query the database
             def connection = new DBInterface()
             connection.connect()
             connection.queryDBForJar(jarList)
             connection.queryDBForCVE(jarList)
-            connection.closeDB()*/
+            connection.closeDB()
 
             // Build the html report
             ReportBuilder report = new ReportBuilder()

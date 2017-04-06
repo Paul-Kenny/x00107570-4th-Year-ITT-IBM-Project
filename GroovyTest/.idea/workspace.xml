@@ -2,88 +2,287 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612f7aea-72f4-47a1-a805-ad61b663a33e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws___jb_tmp___" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16$_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure32.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure36.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure38.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure40.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure41.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure42.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure43.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure44.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure45.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30$_closure47.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30$_closure48.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/classes/main/com/scanImage/gradle/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_1086544674028970728_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_4383158678310007746_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_7103413302445750714_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/build/tmp/test/jar_extract_7426741910854096402_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16$_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure32.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171843-13.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101528-4.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101600-5.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.pom.md5" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure36.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure38.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure40.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure41.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure42.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure43.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure44.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure45.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30$_closure47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174715-16.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174431-15.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171843-13.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102117-7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/java(03-04-2017-13:20).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.165011-11.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.155117-10.pom" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30$_closure48.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure42.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30$_closure47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174956-17.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure23$_closure34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171413-12.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102503-8.jar.sha1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102117-7.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.145219-9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171843-13.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101949-6.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174715-16.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/java(03-04-2017-13:51).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102117-7.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16$_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174956-17.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.173125-14.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.095710-2.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.165011-11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174956-17.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171413-12.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101202-3.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure38.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/java(03-04-2017-13:32).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102117-7.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws___jb_tmp___" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101528-4.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101949-6.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.155117-10.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure31.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174431-15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.145219-9.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.095710-2.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22$_closure32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101528-4.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174431-15.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174956-17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.094626-1.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101528-4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174431-15.jar.sha1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101600-5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.173125-14.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102503-8.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.145219-9.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14$_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101202-3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.173125-14.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.094626-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171413-12.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101202-3.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.165011-11.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.155117-10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.165011-11.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174956-17.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.095710-2.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/.index.html.kate-swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.155117-10.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174715-16.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101600-5.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174431-15.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure46.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174715-16.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101949-6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.pom.md5" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101528-4.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101202-3.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.173125-14.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174715-16.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101202-3.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure43.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101600-5.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure11$_closure13$_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.094626-1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171413-12.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102117-7.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure28$_closure44.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.094626-1.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101949-6.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102503-8.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101949-6.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102503-8.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102503-8.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174431-15.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171843-13.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure24$_closure36.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.095710-2.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.095710-2.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.155117-10.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.145219-9.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171413-12.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101528-4.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101600-5.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.094626-1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101949-6.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.205252-1.pom" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.155117-10.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101600-5.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.165011-11.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171843-13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure27$_closure41.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.145219-9.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.210430-2.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.145219-9.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213203-2.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.173125-14.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure29$_closure45.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/index.htmlmA4300.new" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/user/Report/HTML_Vul_Simple/java(03-04-2017-13:17).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171413-12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174715-16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.095710-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141928-1.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure25$_closure37.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.173125-14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.143502-3.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102503-8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure21$_closure26$_closure39.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure18$_closure19$_closure20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/testPlugin/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.141046-1.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.101202-3.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170329.132522-1.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.174956-17.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.142243-2.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.213158-1.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170331.165011-11.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.102117-7.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170330.094626-1.jar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170327.165955-4.jar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/runScanImage-1.0-20170403.171843-13.pom" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure30$_closure46.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure30$_closure46.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure24$_closure35.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure24$_closure35.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.sha1" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.sha1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.md5" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure25$_closure36.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure25$_closure36.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/ScanPlugin.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure24$_closure34.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure24$_closure34.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/ScanImage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure30$_closure47.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure30$_closure47.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure28$_closure42.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure28$_closure42.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure27.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure27.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure29$_closure45.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure29$_closure45.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure26.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15$_closure17.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15$_closure17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.sha1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure28$_closure43.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure28$_closure43.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure31$_closure49.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure31$_closure49.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure4$_closure6$_closure7.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure4$_closure6$_closure7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure4.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure26$_closure39.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure26$_closure39.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/maven-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15$_closure16.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure25.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure9.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure2.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure23$_closure33.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure23$_closure33.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure26$_closure38.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure26$_closure38.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure25$_closure37.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure25$_closure37.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/TarballOperations$_readTempTar_closure1.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/TarballOperations$_readTempTar_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure31.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure31.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" afterPath="$PROJECT_DIR$/../DockerImageScan/repo/com/scanImage/runScanImage/1.0-SNAPSHOT/maven-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure29.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ScanImage.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ScanImage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure29$_closure44.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure29$_closure44.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/JarFileOperations.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/JarFileOperations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure31$_closure48.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure31$_closure48.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15$_closure17$_closure18.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12$_closure14$_closure15$_closure17$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure28.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure28.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure27$_closure40.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure27$_closure40.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/user/build.gradle" afterPath="$PROJECT_DIR$/../DockerImageScan/user/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/CVE.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/CVE.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/DirectoryOperations.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/DirectoryOperations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure23$_closure32.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure23$_closure32.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/Jar.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/Jar.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure11.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/DBInterface.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/DBInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure23.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/TarballOperations$_readTempTar_closure2.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/TarballOperations$_readTempTar_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/TarballOperations.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/TarballOperations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure27$_closure41.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure27$_closure41.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure21.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure24.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure4$_closure6.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure4$_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure30.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1$_closure3$_closure5$_closure8$_closure10$_closure13$_closure19$_closure20$_closure22$_closure30.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/runScanImage.groovy" afterPath="$PROJECT_DIR$/../DockerImageScan/ScanPlugin/src/main/groovy/com/scanImage/gradle/runScanImage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1.class" afterPath="$PROJECT_DIR$/out/production/GroovyTest/ReportBuilder$_build_closure1.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +302,7 @@
         <entry file="file://$PROJECT_DIR$/src/main.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -112,8 +311,8 @@
       <file leaf-file-name="ScanImage.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+            <state relative-caret-position="864">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -121,21 +320,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBInterface.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
+      <file leaf-file-name="TarballOperations.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TarballOperations.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+            <state relative-caret-position="522">
+              <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportBuilder.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBInterface.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportBuilder.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReportBuilder.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="2610">
+              <caret line="147" column="18" lean-forward="false" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -146,18 +355,8 @@
       <file leaf-file-name="DirectoryOperations.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DirectoryOperations.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DockerImageScan.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="108">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -167,17 +366,17 @@
         <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JarFileOperations.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JarFileOperations.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="448">
+              <caret line="99" column="32" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -188,8 +387,8 @@
       <file leaf-file-name="CVE.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CVE.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="252">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -210,6 +409,7 @@
       <find>println</find>
       <find>make</find>
       <find>printJarName</find>
+      <find>class</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,25 +430,26 @@
         <option value="$PROJECT_DIR$/src/QueryJar.groovy" />
         <option value="$PROJECT_DIR$/src/MakeTempDirectory.groovy" />
         <option value="$PROJECT_DIR$/src/DockerImageScan.groovy" />
-        <option value="$PROJECT_DIR$/src/TarballOperations.groovy" />
-        <option value="$PROJECT_DIR$/src/JarFileOperations.groovy" />
-        <option value="$PROJECT_DIR$/src/DirectoryOperations.groovy" />
-        <option value="$PROJECT_DIR$/src/main.groovy" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/DBInterface.groovy" />
-        <option value="$PROJECT_DIR$/src/CVE.groovy" />
-        <option value="$PROJECT_DIR$/src/Jar.groovy" />
         <option value="$PROJECT_DIR$/src/reportBuilder.groovy" />
         <option value="$PROJECT_DIR$/src/ReportBuilder.java" />
-        <option value="$PROJECT_DIR$/src/ScanImage.groovy" />
+        <option value="$PROJECT_DIR$/src/DirectoryOperations.groovy" />
+        <option value="$PROJECT_DIR$/src/TarballOperations.groovy" />
+        <option value="$PROJECT_DIR$/src/Jar.groovy" />
+        <option value="$PROJECT_DIR$/src/CVE.groovy" />
         <option value="$PROJECT_DIR$/src/ReportBuilder.groovy" />
+        <option value="$PROJECT_DIR$/src/DBInterface.groovy" />
+        <option value="$PROJECT_DIR$/src/main.groovy" />
+        <option value="$PROJECT_DIR$/src/ScanImage.groovy" />
+        <option value="$PROJECT_DIR$/src/JarFileOperations.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="917" />
-    <option name="width" value="950" />
-    <option name="height" value="972" />
+    <option name="x" value="563" />
+    <option name="y" value="34" />
+    <option name="width" value="1116" />
+    <option name="height" value="941" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -267,8 +468,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,7 +526,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DockerImageScan/ScanPlugin" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -576,25 +777,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="917" y="0" width="950" height="972" extended-state="0" />
-    <editor active="true" />
+    <frame x="563" y="34" width="1116" height="941" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.26354167" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34364262" sideWeight="0.73645836" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.82185274" sideWeight="0.73645836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23578948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33870968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -605,6 +805,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18149039" sideWeight="0.5678161" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -621,7 +822,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestClass.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -784,21 +984,6 @@
     <entry file="file://$PROJECT_DIR$/src/TestClass.groovy" />
     <entry file="file://$PROJECT_DIR$/src/ZipReader.groovy" />
     <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/TarballOperations.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DirectoryOperations.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DockerImageScan.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -807,65 +992,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReportBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main.groovy">
+    <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CVE.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="252">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReportBuilder.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="147" column="18" lean-forward="false" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DirectoryOperations.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DockerImageScan/user/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBInterface.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        <state relative-caret-position="108">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jar.groovy">
+    <entry file="file://$PROJECT_DIR$/src/TarballOperations.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="522">
+          <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ScanImage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        <state relative-caret-position="864">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReportBuilder.groovy">
+    <entry file="file://$PROJECT_DIR$/src/JarFileOperations.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="448">
+          <caret line="99" column="32" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

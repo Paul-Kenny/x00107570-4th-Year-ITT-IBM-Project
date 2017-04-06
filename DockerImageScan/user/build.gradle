@@ -11,3 +11,7 @@ buildscript {
     }
 }
 apply plugin: 'scanImage'
+
+repositories {
+    mavenCentral()
+}

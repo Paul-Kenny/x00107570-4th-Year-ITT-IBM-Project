@@ -16,6 +16,7 @@ class ScanImage {
     // Array to store all jar security vulnerabilities found
     static vulList = []
 
+
     // Constructor
     ScanImage(String imageNameIn, String tempDir) {
 
@@ -59,6 +60,8 @@ class ScanImage {
                 // Get jar files in each layer tarball
                 jarFile.getJarName()
             }
+
+            println "Number of jars: " + jarList.size()
 
             // Remove temporary directory
             def rmDir = new DirectoryOperations()
