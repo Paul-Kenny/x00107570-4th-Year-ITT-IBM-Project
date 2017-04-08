@@ -81,6 +81,10 @@ class ScanImage {
             ReportBuilder report = new ReportBuilder()
             def html = report.build()
 
+            // Clear static lists
+            jarList = []
+            vulList = []
+
             // Add html markup to the output report
             def reportName = "./Report/Vulnerabilities_Reports/" + imageName + "(" + new SimpleDateFormat("dd-MM-yyyy-HH:mm:ss").format(new Date()) + ").html"
             def index = new File(reportName)
@@ -93,10 +97,11 @@ class ScanImage {
         }
         else{
 
+            // Display error message to console
             println error.trim()
             println "The image \"" + imageName + "\" is not a valid image name."
 
-            // Remove temporary directory
+            // Remove temporary directories
             def rmDir = new DirectoryOperations()
             rmDir.removeDir(tarballDir)
 

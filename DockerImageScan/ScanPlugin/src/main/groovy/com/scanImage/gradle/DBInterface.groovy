@@ -52,7 +52,6 @@ class DBInterface {
     // Query database for jar file vulnerabilities
     void queryDBForCVE(List jarList) {
         for (String item : jarList) {
-
             try {
                 sql.eachRow("select * from Jar, CVE where Jar.JAR_NAME = '" + item + "' and CVE.JAR_NAME_CVE = '" + item + "'") { row ->
                     String name = row.JAR_NAME
@@ -76,7 +75,6 @@ class DBInterface {
 
             }
         }
-        sql.close()
     }
 
     // Close database connection
