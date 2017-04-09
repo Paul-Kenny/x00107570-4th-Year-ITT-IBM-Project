@@ -11,6 +11,9 @@ class DirectoryOperations {
     // Make the temporary directory
     String makeDir(String tempDir) {
 
+        // Remove temporary directories if they already exist
+        removeDir(tempDir + "Temp/")
+
         // Create temporary tar directory path
         tempDir = tempDir + "Temp/"
         println "Creating temporary directory " + tempDir

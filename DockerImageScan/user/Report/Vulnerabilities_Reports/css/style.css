@@ -8,25 +8,26 @@ body, html{
 
 /*Text*/
 h2{
-	text-transform: uppercase;
+	
     font-size: 22px;
 	line-height: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
     
 }
 h3{
-    text-transform: uppercase;
+    
     font-size: 18px;
     font-weight: 900;    
     margin-bottom: 18px;
 }
 h4{
-	text-transform: uppercase;
+	
 }
 
 /* Header */
 nav#header{
-	background: #222222;
+	background: #1D2951;
 	color: #ffffff;
 	padding: 20px 0 30px 0;
     margin-bottom: 10px;
@@ -46,24 +47,24 @@ nav#header p{
 
 .section-title.center{
 	padding: 5px 0;
-    text-align: center;
+    text-align: left;
 }
 .section-title.center h2{
 	font-weight: 300;
 }
 
-#row .item {
+#row.item {
     background-color:#ddd;
-    padding:20px 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding:10px 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .jar{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    background-color: #fcac45;
+    background-color: #6599e0;
     padding: 3px;
     padding-top: 0;
     text-align:left
@@ -85,13 +86,24 @@ nav#header p{
 	line-height: 34px;
 	padding: 0 10px;
 	cursor: pointer;
-    margin:0;
-	background: #c5c5c7; 
+	margin:0;
 	border-bottom:1px solid black;
+	background-color: #838b8b;
 }
 #accordianmenu p.jar_name{
-	background-color: #fcac45;
+	background-color: #6599e0;
 }
+
+#accordianmenu p.low{
+	color: #66CD00;
+}
+#accordianmenu p.medium{
+	color: #FFC200 ;
+}
+#accordianmenu p.high{
+	color: #ff0000;
+}
+
 #accordianmenu p:hover {
 	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
 }
@@ -120,3 +132,18 @@ nav#header p{
     text-align:left;
     width: auto;
 }
+#accordianmenu ul li ul li .result a.low {
+    color: #66CD00;
+}
+#accordianmenu ul li ul li .result a.medium {
+    color: #FFC200;
+}
+#accordianmenu ul li ul li .result a.high {
+    color: #ff0000;
+}
+
+
+
+
+
+

@@ -79,7 +79,7 @@ class ScanImage {
 
             // Build the html report
             ReportBuilder report = new ReportBuilder()
-            def html = report.build()
+            def html = report.build(imageName)
 
             // Clear static lists
             jarList = []

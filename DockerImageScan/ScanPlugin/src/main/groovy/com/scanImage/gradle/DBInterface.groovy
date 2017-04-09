@@ -32,8 +32,13 @@ class DBInterface {
 
     // Query database for jar files found
     void queryDBForJar(List jarList) {
-        for (String item : jarList) {
 
+        def queryFiles = jarList.size()
+
+        for (String item : jarList) {
+            ///change this
+            println  (queryFiles + " jar files to query. \r")
+            queryFiles--
             try {
                 sql.eachRow("select * from Jar where Jar.JAR_NAME = '" + item + "'") { row ->
                     String name = row.JAR_NAME

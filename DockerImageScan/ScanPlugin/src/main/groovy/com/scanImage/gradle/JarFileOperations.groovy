@@ -107,7 +107,7 @@ class JarFileOperations {
     void stripJarExt(String jarPath) {
 
         // Parse the jar name without the file extension
-        String withoutJarEx = jarPath.substring(jarPath.lastIndexOf("/") + 1, jarPath.indexOf("."))
+        String withoutJarEx = jarPath.substring(jarPath.lastIndexOf("/") + 1, jarPath.lastIndexOf("."))
         println "Jar found: " + withoutJarEx
         // Test if the jar is a third party jar
         //thirdPartyJarTest(withoutJarEx)
