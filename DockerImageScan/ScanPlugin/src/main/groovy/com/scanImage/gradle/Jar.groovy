@@ -2,6 +2,7 @@ package com.scanImage.gradle
 
 /**
  * Created by Paul on 3/31/17.
+ * Class to build jar file description object found in the vulnerabilities database.
  */
 class Jar {
 
@@ -12,7 +13,7 @@ class Jar {
     def cveList = []
 
     // Jar constructor
-    Jar(String jarName, String jarDesc){
+    Jar(String jarName, String jarDesc) {
         this.jarName = jarName
         this.jarDesc = jarDesc
     }

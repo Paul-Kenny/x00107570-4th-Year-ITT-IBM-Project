@@ -1,7 +1,11 @@
 package com.scanImage.gradle
 
+import org.gradle.api.Project
+
+
 /**
  * Created by Paul on 3/14/17.
+ * Class to connect to and query the remote vulnerabilities database.
  */
 import java.sql.*
 import groovy.sql.*
@@ -10,7 +14,17 @@ class DBInterface {
 
     def sql
 
-    void connect() {
+    void connect(Project target) {
+
+        // Resolve JDBC driver to establish DB connection
+        def jdbcDriverConfig = target.getConfigurations().create('driver')
+        target.getDependencies().add(jdbcDriverConfig.name, 'mysql:mysql-connector-java:6.0.6')
+        URLClassLoader loader = GroovyObject.class.classLoader
+        target.getConfigurations().driver.each { File file ->
+            loader.addURL(file.toURL())
+        }
+
+        // Connect to database
         try {
             def db = [
                     url     : 'jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul',
@@ -23,9 +37,9 @@ class DBInterface {
             println("Connected to DB")
         } catch (SQLException ex) {
             println "No connection found!"
-            System.out.println("SQLException: " + ex.getMessage());
-            System.out.println("SQLState: " + ex.getSQLState());
-            System.out.println("VendorError: " + ex.getErrorCode());
+            println("SQLException: " + ex.getMessage())
+            println("SQLState: " + ex.getSQLState())
+            println("VendorError: " + ex.getErrorCode())
             throw ex
         }
     }
@@ -37,7 +51,7 @@ class DBInterface {
 
         for (String item : jarList) {
             ///change this
-            println  (queryFiles + " jar files to query. \r")
+            println(queryFiles + " database queries remain. \r")
             queryFiles--
             try {
                 sql.eachRow("select * from Jar where Jar.JAR_NAME = '" + item + "'") { row ->
@@ -48,8 +62,10 @@ class DBInterface {
                     def jar = new Jar(name, jarDesc)
                     ScanImage.vulList << jar
                 }
-            } finally {
-
+            } catch (SQLException ex) {
+                println("SQLException: " + ex.getMessage())
+                println("SQLState: " + ex.getSQLState())
+                println("VendorError: " + ex.getErrorCode())
             }
         }
     }
@@ -76,23 +92,24 @@ class DBInterface {
                     def cve = new CVE(name, id, cveDesc, cvssFlag, vector, auth, impact, vulType, cweURL, nvdURL, cvss, cweId)
                     cve.addCVEToVulList(cve)
                 }
-            } finally {
-
+            } catch (SQLException ex) {
+                println("SQLException: " + ex.getMessage())
+                println("SQLState: " + ex.getSQLState())
+                println("VendorError: " + ex.getErrorCode())
             }
         }
     }
 
     // Close database connection
-
     void closeDB() {
         try {
             sql.close()
             println "Database connection closed!"
         } catch (SQLException ex) {
             println "Could not close connection!"
-            System.out.println("SQLException: " + ex.getMessage())
-            System.out.println("SQLState: " + ex.getSQLState())
-            System.out.println("VendorError: " + ex.getErrorCode())
+            println("SQLException: " + ex.getMessage())
+            println("SQLState: " + ex.getSQLState())
+            println("VendorError: " + ex.getErrorCode())
         }
     }
 }

@@ -1,0 +1,12 @@
+ 
+###DO NOT DELETE the user/Report or the user/TemporaryDirectories folders!!!!###
+
+The user/Report/Vulnerabilities_Reports folder will contain dynamically generated Docker image security vulnerabilities reports. These reports will automatically open in the users default browser once the image scan is complete.
+
+The user/TemporaryDirectories folder is the directory in which temporary directories (required by the image scan) will be generated during the image scan. This directory will be empty at all other times.
+
+To execute the Docker image security vulnerabilities scan execute the following command from the current ("user") directory: 
+
+  gradle scan -PimageNameArg="<docker_image_Name>" 
+  
+Once the scan is comlete the security scan report will automatically open in the user's default browser. The report can be found in the Report/Vulnerabilities_Reports directory. The name of the report will take the following format <docker_image_name>(timestamp).html. If a copy of the report is being saved to another directory, please ensure that a copy of the user/Report/Vulnerabilities_Reports/css/ directory is saved also.

@@ -2,26 +2,27 @@ package com.scanImage.gradle
 
 /**
  * Created by Paul on 4/3/17.
+ * Class to dynamically build the HTML security vulnerabilities report.
  */
 import groovy.xml.MarkupBuilder
 
 class ReportBuilder {
 
     // Build the HTML vulnerabilities report
-    def build(String imageName){
+    def build(String imageName) {
 
         StringWriter writer = new StringWriter()
         def build = new MarkupBuilder(writer)
 
-        build.html{ // Static markup start
-            head{
-                meta('charset':'utf-8')
-                meta('name':'viewport', 'content':'width=device-width, initial-scale=1')
+        build.html { // Static markup start
+            head {
+                meta('charset': 'utf-8')
+                meta('name': 'viewport', 'content': 'width=device-width, initial-scale=1')
                 title("Docker Jar Vulnerabilities")
-                meta('name':'description', 'content':'Docker Image Scan Security Vulnerabilities Results')
+                meta('name': 'description', 'content': 'Docker Image Scan Security Vulnerabilities Results')
 
-                link('rel':'stylesheet', 'type':'text/css', 'href':'css/style.css')
-                script('','src':'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+                link('rel': 'stylesheet', 'type': 'text/css', 'href': 'css/style.css')
+                script('', 'src': 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
                 script('$(document).ready(function(){\n' +
                         '                $("#accordianmenu p").click(function(){\n' +
                         '\t\t          $("#accordianmenu ul ul").slideUp();\n' +
@@ -32,27 +33,20 @@ class ReportBuilder {
                         '\t           });\n' +
                         '            });')
             }
-            body{
-                nav('id':'header'){
-                    div('class':'pull-left fnav'){
-                        p('IBM'){
-                            a('style':'color: #838b8b;','Docker Image Vulnerabilities Scan Results')
+            body {
+                nav('id': 'header') {
+                    div('class': 'pull-left fnav') {
+                        p('IBM') {
+                            a('style': 'color: #838b8b;', 'Docker Image Vulnerabilities Scan Results')
                         }
                     }
                 }
-
-
-                div('id':'secVul') {
-
+                div('id': 'secVul') {
                     div('id': 'row', 'class': 'item') {
                         div('class': 'section-title center') {
                             h2() {
                                 strong(imageName + ' Image Security Vulnerabilities')
-                            }
-
-                            // Static markup end
-
-
+                            } // Static markup end
                             if (ScanImage.vulList.size() != 0) { // Dynamic markup start
 
                                 for (Jar jar : ScanImage.vulList) {
@@ -114,15 +108,15 @@ class ReportBuilder {
                                                                 }
                                                                 if (cve.cvssFlag == "LOW") {
                                                                     span('class': 'result') {
-                                                                        a('class':'low', cve.cveScore)
+                                                                        a('class': 'low', cve.cveScore)
                                                                     }
                                                                 } else if (cve.cvssFlag == "MEDIUM") {
                                                                     span('class': 'result') {
-                                                                        a('class':'medium', cve.cveScore)
+                                                                        a('class': 'medium', cve.cveScore)
                                                                     }
                                                                 } else {
                                                                     span('class': 'result') {
-                                                                        a('class':'high', cve.cveScore)
+                                                                        a('class': 'high', cve.cveScore)
                                                                     }
                                                                 }
                                                             }
@@ -132,15 +126,15 @@ class ReportBuilder {
                                                                 }
                                                                 if (cve.cvssFlag == "LOW") {
                                                                     span('class': 'result') {
-                                                                        a('class':'low', cve.cvssFlag)
+                                                                        a('class': 'low', cve.cvssFlag)
                                                                     }
                                                                 } else if (cve.cvssFlag == "MEDIUM") {
                                                                     span('class': 'result') {
-                                                                        a('class':'medium', cve.cvssFlag)
+                                                                        a('class': 'medium', cve.cvssFlag)
                                                                     }
                                                                 } else {
                                                                     span('class': 'result') {
-                                                                        a('class':'high', cve.cvssFlag)
+                                                                        a('class': 'high', cve.cvssFlag)
                                                                     }
                                                                 }
                                                             }
@@ -184,37 +178,24 @@ class ReportBuilder {
                                                                     a('href': cve.cweUrl, 'target': '_blank', cve.cweId)
                                                                 }
                                                             }
-
-
                                                         }
                                                     }
                                                 }
                                             }// CVE End
                                         }
-
                                     }// Jar end
                                 }
                             } // Dynamic markup end
-
-
-                            else { // Static markup start
+                            else {
                                 h2() {
                                     strong('No Security Vulnerabilities Found!!')
                                 }
                             }
-
-
-                        }
-
-
+                        } // Static markup start
                     }
                 }
-
-
-
             }
         } // Static markup end
         return writer.toString()
     }
-
 }

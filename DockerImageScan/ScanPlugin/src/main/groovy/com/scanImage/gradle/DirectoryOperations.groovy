@@ -5,37 +5,50 @@ package com.scanImage.gradle
  */
 /**
  * Created by Paul on 3/21/17.
+ * Class which creates and removes temporary directories needed during the scan process.
  */
 class DirectoryOperations {
 
     // Make the temporary directory
     String makeDir(String tempDir) {
 
-        // Remove temporary directories if they already exist
-        removeDir(tempDir + "Temp/")
+        try {
+            // Remove temporary directories if they already exist
+            removeDir(tempDir + "Temp/")
 
-        // Create temporary tar directory path
-        tempDir = tempDir + "Temp/"
-        println "Creating temporary directory " + tempDir
+            // Create temporary tar directory path
+            tempDir = tempDir + "Temp/"
+            println "Creating temporary directory " + tempDir
 
-        // Create make directory string
-        String makeDir = "mkdir " + tempDir
+            // Create make directory string
+            String makeDir = "mkdir " + tempDir
 
-        // Execute make directory
-        makeDir.execute().waitFor()
+            // Execute make directory
+            makeDir.execute().waitFor()
+        } catch (FileNotFoundException ex) {
+            println "The " + tempDir + "directory does not exist!"
+            println ex.printStackTrace()
+        }
 
         return tempDir
     }
 
     // Remove temporary directories
-    void removeDir(String tempDir){
-        // Create delete temporary directory command
-        String removeTemp = "rm -rf " + tempDir
+    void removeDir(String tempDir) {
 
-        // Execute delete temporary directory command
-        removeTemp.execute().waitFor()
+        try {
+            // Create delete temporary directory command
+            String removeTemp = "rm -rf " + tempDir
 
-        println tempDir + " removed"
+            // Execute delete temporary directory command
+            removeTemp.execute().waitFor()
+
+            println tempDir + " removed"
+        }
+        catch (FileNotFoundException ex) {
+            println "The " + tempDir + "directory does not exist!"
+            println ex.printStackTrace()
+        }
     }
 }
 

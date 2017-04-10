@@ -1,10 +1,12 @@
 package com.scanImage.gradle
 
+import org.gradle.api.Project
+
 import java.awt.Desktop
 import java.text.SimpleDateFormat
 
 /**
- * Created by Paul on 3/27/17.
+ * This class executes the security vulnerabilities scan on a chosen Docker image.
  */
 
 class ScanImage {
@@ -36,7 +38,7 @@ class ScanImage {
     }
 
     // Start the scan process
-    void scanDockerImage() {
+    void scanDockerImage(Project target) {
 
         // Create TarballOperations object
         def tarball = new TarballOperations(tarballDir, untarDir, jarDir, imageName)
@@ -45,7 +47,7 @@ class ScanImage {
         def error = tarball.dockerTar()
 
         // Check if docker image exists
-        if(error.isEmpty()){
+        if (error.isEmpty()) {
 
             // Unarchive the image tarball untarDir
             tarball.untarImage()
@@ -70,9 +72,9 @@ class ScanImage {
             def rmDir = new DirectoryOperations()
             rmDir.removeDir(tarballDir)
 
-           // Query the database
+            // Query the database
             def connection = new DBInterface()
-            connection.connect()
+            connection.connect(target)
             connection.queryDBForJar(jarList)
             connection.queryDBForCVE(jarList)
             connection.closeDB()
@@ -85,6 +87,12 @@ class ScanImage {
             jarList = []
             vulList = []
 
+            //Test if image name is complex
+            if (imageName.contains("/")) {
+                // Simplify image name (if necessary) for HTML report title
+                imageName = imageName.substring(imageName.lastIndexOf("/"))
+            }
+
             // Add html markup to the output report
             def reportName = "./Report/Vulnerabilities_Reports/" + imageName + "(" + new SimpleDateFormat("dd-MM-yyyy-HH:mm:ss").format(new Date()) + ").html"
             def index = new File(reportName)
@@ -94,11 +102,10 @@ class ScanImage {
             def url = reportName
             File htmlFile = new File(url)
             Desktop.getDesktop().browse(htmlFile.toURI())
-        }
-        else{
+        } else {
 
             // Display error message to console
-            println error.trim()
+            println error
             println "The image \"" + imageName + "\" is not a valid image name."
 
             // Remove temporary directories
@@ -106,8 +113,6 @@ class ScanImage {
             rmDir.removeDir(tarballDir)
 
         }
-
     }
-
 }
 
