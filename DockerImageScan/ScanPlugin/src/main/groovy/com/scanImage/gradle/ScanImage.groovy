@@ -40,14 +40,18 @@ class ScanImage {
     // Start the scan process
     void scanDockerImage(Project target) {
 
-        // Create TarballOperations object
-        def tarball = new TarballOperations(tarballDir, untarDir, jarDir, imageName)
+        def inspectImage = new DockerImage()
 
-        // Save the docker image tarball to the tarballDir
-        def error = tarball.dockerTar()
+        def inspectError = inspectImage.testIfImageExists(imageName)
 
         // Check if docker image exists
-        if (error.isEmpty()) {
+        if (inspectError.isEmpty()) {
+
+            // Create TarballOperations object
+            def tarball = new TarballOperations(tarballDir, untarDir, jarDir, imageName)
+
+            // Save the docker image tarball to the tarballDir
+            tarball.dockerTar()
 
             // Unarchive the image tarball untarDir
             tarball.untarImage()
@@ -105,8 +109,8 @@ class ScanImage {
         } else {
 
             // Display error message to console
-            println error
             println "The image \"" + imageName + "\" is not a valid image name."
+            println "Please check that the image exists using the 'docker images' command"
 
             // Remove temporary directories
             def rmDir = new DirectoryOperations()

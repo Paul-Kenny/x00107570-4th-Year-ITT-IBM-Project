@@ -42,7 +42,6 @@ class DirectoryOperations {
 
             // Execute delete temporary directory command
             removeTemp.execute().waitFor()
-
             println tempDir + " removed"
         }
         catch (FileNotFoundException ex) {

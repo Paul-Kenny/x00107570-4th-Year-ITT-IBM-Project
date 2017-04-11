@@ -30,7 +30,7 @@ class TarballOperations {
     }
 
     // Save the docker image as a tarball
-    def dockerTar() {
+    void dockerTar() {
 
         try {
             println "Creating tarball from " + imageName + " image..."
@@ -41,10 +41,7 @@ class TarballOperations {
             def out = new StringBuilder(), err = new StringBuilder()
             proc.consumeProcessOutput(out, err)
             proc.waitFor()
-            def error = "$err"
 
-            // Return error report
-            return error
         } catch (Exception ex) {
             println ex.printStackTrace()
         }

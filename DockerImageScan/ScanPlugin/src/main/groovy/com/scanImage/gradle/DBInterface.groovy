@@ -90,6 +90,7 @@ class DBInterface {
 
                     // create CVE object
                     def cve = new CVE(name, id, cveDesc, cvssFlag, vector, auth, impact, vulType, cweURL, nvdURL, cvss, cweId)
+                    // Add CVE to appropriate Jar listing
                     cve.addCVEToVulList(cve)
                 }
             } catch (SQLException ex) {
