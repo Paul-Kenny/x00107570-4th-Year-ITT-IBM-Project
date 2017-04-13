@@ -1,0 +1,2981 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <title>Docker Jar Vulnerabilities</title>
+    <meta name='description' content='Docker Image Scan Security Vulnerabilities Results' />
+    <link rel='stylesheet' type='text/css' href='css/style.css' />
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script>$(document).ready(function(){
+                $("#accordianmenu p").click(function(){
+		          $("#accordianmenu ul ul").slideUp();
+		          if(!$(this).next().is(":visible"))
+		          {
+                      $(this).next().slideDown();
+		          }
+	           });
+            });</script>
+  </head>
+  <body>
+    <nav id='header'>
+      <div class='pull-left fnav'>
+        <p>IBM
+          <a style='color: #838b8b;'>Docker Image Vulnerabilities Scan Results</a>
+        </p>
+      </div>
+    </nav>
+    <div id='secVul'>
+      <div id='row' class='item'>
+        <div class='section-title center'>
+          <h2>
+            <strong>artifactory.swg.usma.ibm.com:6555/toscana-service-chat Image Security Vulnerabilities</strong>
+          </h2>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>newrelic</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>With New Relics Java agent, you can track everything from performance issues to tiny errors within your code. New Relics Java agent monitors your Java app, and provides visibility into the behavior of your JVM. After installing, you will be able to quickly monitor transactions, dive deep into errors, and more.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2013-0284</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2013-0284' target='_blank'>CVE-2013-0284</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Ruby agent 3.2.0 through 3.5.2 serializes sensitive data when communicating with servers operated by New Relic, which allows remote attackers to obtain sensitive information (database credentials and SQL statements) by sniffing the network and deserializing the data.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information;</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Information Leak / Disclosure</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/200.html' target='_blank'>200</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>charsets</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Character sets.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='low'>
+                    <strong>CVE-2017-3243</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2017-3243' target='_blank'>CVE-2017-3243</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Charsets). Supported versions that are affected are 5.5.53 and earlier. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS v3.0 Base Score 4.4 (Availability impacts).	</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='low'>3.5</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='low'>LOW</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Cross-Site Request Forgery (CSRF) </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/352.html' target='_blank'>352</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>commons-collections4-4.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Commons collections is a project to develop and maintain collection classes based on and inspired by the JDK collection framework. This version uses the generics features of Java 5 and is not compatible with earlier JDK versions.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2015-6420</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2015-6420' target='_blank'>CVE-2015-6420</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Serialized-object interfaces in certain Cisco Collaboration and Social Media; Endpoint Clients and Client Software; Network Application, Service, and Acceleration; Network and Content Security Devices; Network Management and Provisioning; Routing and Switching - Enterprise and Service Provider; Unified Computing; Voice and Unified Communications Devices; Video, Streaming, TelePresence, and Transcoding Devices; Wireless; and Cisco Hosted Services products allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>7.5</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not Specified</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/CWE-Other.html' target='_blank'>0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>snakeyaml-1.16</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>YAML is a data serialization format designed for human readability and interaction with scripting languages. SnakeYAML is a YAML processor for the Java Virtual Machine.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2017-3159</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2017-3159' target='_blank'>CVE-2017-3159</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache Camels camel-snakeyaml component is vulnerable to Java object de-serialization vulnerability. De-serializing untrusted data can lead to security flaws.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>7.5</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Deserialization of Untrusted Data</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/502.html' target='_blank'>502</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>jackson-databind-2.6.5</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>General data-binding functionality for Jackson: works on core streaming API</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2016-3720</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2016-3720' target='_blank'>CVE-2016-3720</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>XML external entity (XXE) vulnerability in XmlMapper in the Data format extension for Jackson (aka jackson-dataformat-xml) allows attackers to have unspecified impact via unknown vectors.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>7.5</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Insufficient Information</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/CWE-noinfo.html' target='_blank'>0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>bcpkix-jdk15on-1.47</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.5 to JDK 1.8. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2007-6721</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2007-6721' target='_blank'>CVE-2007-6721</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>The Legion of the Bouncy Castle Java Cryptography API before release 1.38, as used in Crypto Provider Package before 1.36, has unknown impact and remote attack vectors related to "a Bleichenbacher vulnerability in simple RSA CMS signatures without signed attributes."</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>10.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Insufficient Information</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/CWE-noinfo.html' target='_blank'>0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2013-1624</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2013-1624' target='_blank'>CVE-2013-1624</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>The TLS implementation in the Bouncy Castle Java library before 1.48 and C# library before 1.8 does not properly consider timing side-channel attacks on a noncompliant MAC check operation during the processing of malformed CBC padding, which allows remote attackers to conduct distinguishing attacks and plaintext-recovery attacks via statistical analysis of timing data for crafted packets, a related issue to CVE-2013-0169.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>4.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Cryptographic Issues</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/310.html' target='_blank'>310</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2015-7940</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2015-7940' target='_blank'>CVE-2015-7940</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>The Bouncy Castle Java library before 1.51 does not validate a point is withing the elliptic curve, which makes it easier for remote attackers to obtain private keys via a series of crafted elliptic curve Diffie Hellman (ECDH) key exchanges, aka an "invalid curve attack."</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Information Leak / Disclosure</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/200.html' target='_blank'>200</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>xstream-1.4.2</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>XStream is a simple library to serialize objects to XML and back again.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2016-3674</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2016-3674' target='_blank'>CVE-2016-3674</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Multiple XML external entity (XXE) vulnerabilities in the (1) Dom4JDriver, (2) DomDriver, (3) JDomDriver, (4) JDom2Driver, (5) SjsxpDriver, (6) StandardStaxDriver, and (7) WstxDriver drivers in XStream before 1.4.9 allow remote attackers to read arbitrary files via a crafted XML document.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>7.5</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Information Leak / Disclosure </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/200.html' target='_blank'>200</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>commons-beanutils-1.9.2</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>The Java language provides Reflection and Introspection APIs (see the java.lang.reflect and java.beans packages in the JDK Javadocs). However, these APIs can be quite complex to understand and utilize. The BeanUtils component provides easy-to-use wrappers around these capabilities.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2014-0114</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-0114' target='_blank'>CVE-2014-0114</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache Commons BeanUtils, as distributed in lib/commons-beanutils-1.8.0.jar in Apache Struts 1.x through 1.3.10 and in other products requiring commons-beanutils through 1.9.2, does not suppress the class property, which allows remote attackers to "manipulate" the ClassLoader and execute arbitrary code via the class parameter, as demonstrated by the passing of this parameter to the getClass method of the ActionForm object in Struts 1.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>7.5</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Input Validation</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/20.html' target='_blank'>20</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>zookeeper-3.4.6</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>ZooKeeper is a high-performance coordination service for distributed applications. It exposes common services - such as naming, configuration management, synchronization, and group services - in a simple interface so you dont have to write them from scratch. You can use it off-the-shelf to implement consensus, group management, leader election, and presence protocols. And you can build on it for your own, specific needs.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2016-5017</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2016-5017' target='_blank'>CVE-2016-5017</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Buffer overflow in the C cli shell in Apache Zookeeper before 3.4.9 and 3.5.x before 3.5.3, when using the "cmd:" batch mode syntax, allows attackers to have unspecified impact via a long command string.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>6.8</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Buffer Errors.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/119.html' target='_blank'>119</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>lz4-1.3.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>LZ4 is a lossless data compression algorithm that is focused on compression and decompression speed. It belongs to the LZ77 family of byte-oriented compression schemes.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-4715</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-4715' target='_blank'>CVE-2014-4715</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Yann Collet LZ4 before r119, when used on certain 32-bit platforms that allocate memory beyond 0x80000000, does not properly detect integer overflows, which allows context-dependent attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a crafted Literal Run, a different vulnerability than CVE-2014-4611.	</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows disruption of service.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Numeric Errors</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/189.html' target='_blank'>189</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>async-http-client-2.0.0-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Async Http Client library purpose is to allow Java applications to easily execute HTTP requests and asynchronously process the HTTP responses.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2013-7397</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2013-7397' target='_blank'>CVE-2013-7397</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Async Http Client (aka AHC or async-http-client) before 1.9.0 skips X.509 certificate verification unless both a keyStore location and a trustStore location are explicitly set, which allows man-in-the-middle attackers to spoof HTTPS servers by presenting an arbitrary certificate during use of a typical AHC configuration, as demonstrated by a configuration that does not send client certificates.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>4.3</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized modification.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Insufficient Verification of Data Authenticity </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/345.html' target='_blank'>345</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2013-7398</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2013-7398' target='_blank'>CVE-2013-7398</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>main/java/com/ning/http/client/AsyncHttpClientConfig.java in Async Http Client (aka AHC or async-http-client) before 1.9.0 does not require a hostname match during verification of X.509 certificates, which allows man-in-the-middle attackers to spoof HTTPS servers via an arbitrary valid certificate.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>4.3</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized modification.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Insufficient Verification of Data Authenticity </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/345.html' target='_blank'>345</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>cxf-2.7-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2012-2378</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2012-2378' target='_blank'>CVE-2012-2378</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache CXF 2.4.5 through 2.4.7, 2.5.1 through 2.5.3, and 2.6.x before 2.6.1, does not properly enforce child policies of a WS-SecurityPolicy 1.1 SupportingToken policy on the client side, which allows remote attackers to bypass the (1) AlgorithmSuite, (2) SignedParts, (3) SignedElements, (4) EncryptedParts, and (5) EncryptedElements policies.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>4.3</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Permissions, Privileges, and Access Control.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/264.html' target='_blank'>264</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2012-2379</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2012-2379' target='_blank'>CVE-2012-2379</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache CXF 2.4.x before 2.4.8, 2.5.x before 2.5.4, and 2.6.x before 2.6.1, when a Supporting Token specifies a child WS-SecurityPolicy 1.1 or 1.2 policy, does not properly ensure that an XML element is signed or encrypted, which has unspecified impact and attack vectors.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>10.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Insufficient Information.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/CWE-noinfo.html' target='_blank'>0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2012-5575</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2012-5575' target='_blank'>CVE-2012-5575</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache CFX 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7.4 does not verify that a specified cryptographic algorithm is allowed by the WS-SecurityPolicy AlgorithmSuite definition before decrypting, which allows remote attackers to force CXF to use weaker cryptographic algorithms than intended and makes it easier to decrypt communications, aka "XML Encryption backwards compatibility attack."</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>6.4</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Cryptographic Issues .</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/310.html' target='_blank'>310</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2012-5633</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2012-5633' target='_blank'>CVE-2012-5633</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>The URIMappingInterceptor in Apache CXF before 2.5.8, 2.6.x before 2.6.5, and 2.7.x before 2.7.2, when using the WSS4JInInterceptor, bypasses WS-Security processing, which allows remote attackers to obtain access to SOAP services via an HTTP GET request.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.8</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Authentication Issues.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/287.html' target='_blank'>287</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2013-0239</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2013-0239' target='_blank'>CVE-2013-0239</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache CXF before 2.5.9, 2.6.x before 2.6.6, and 2.7.x before 2.7.3, when the plaintext UsernameToken WS-SecurityPolicy is enabled, allows remote attackers to bypass authentication via a security header of a SOAP request containing a UsernameToken element that lacks a password child element.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized modification.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Authentication Issues.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/287.html' target='_blank'>287</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2013-2160</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2013-2160' target='_blank'>CVE-2013-2160</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>The streaming XML parser in Apache CXF 2.5.x before 2.5.10, 2.6.x before 2.6.7, and 2.7.x before 2.7.4 allows remote attackers to cause a denial of service (CPU and memory consumption) via crafted XML with a large number of (1) elements, (2) attributes, (3) nested constructs, and possibly other vectors.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Resource Management Errors.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/399.html' target='_blank'>399</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-0109</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-0109' target='_blank'>CVE-2014-0109</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache CXF before 2.6.14 and 2.7.x before 2.7.11 allows remote attackers to cause a denial of service (/tmp disk consumption) via a large request with the Content-Type set to text/html to a SOAP endpoint, which triggers an error.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>4.3</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Resource Management Errors.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/399.html' target='_blank'>399</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-0110</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-0110' target='_blank'>CVE-2014-0110</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache CXF before 2.6.14 and 2.7.x before 2.7.11 allows remote attackers to cause a denial of service (/tmp disk consumption) via a large invalid SOAP message.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>4.3</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Resource Management Errors.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/399.html' target='_blank'>399</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>grails-1.3-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Grails is an open source web application framework that uses the Apache Groovy programming language (which is in turn based on the Java platform). It is intended to be a high-productivity framework by following the "coding by convention" paradigm, providing a stand-alone development environment and hiding much of the configuration detail from the developer.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2012-1833</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2012-1833' target='_blank'>CVE-2012-1833</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>VMware SpringSource Grails before 1.3.8, and 2.x before 2.0.2, does not properly restrict data binding, which might allow remote attackers to bypass intended access restrictions and modify arbitrary object properties via a crafted request parameter to an application.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized modification.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Permissions, Privileges, and Access Control.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/264.html' target='_blank'>264</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>grails-2-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Grails is an open source web application framework that uses the Apache Groovy programming language (which is in turn based on the Java platform). It is intended to be a high-productivity framework by following the "coding by convention" paradigm, providing a stand-alone development environment and hiding much of the configuration detail from the developer.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-0053</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-0053' target='_blank'>CVE-2014-0053</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>The default configuration of the Resources plugin 1.0.0 before 1.2.6 for Pivotal Grails 2.0.0 before 2.3.6 does not properly restrict access to files in the WEB-INF directory, which allows remote attackers to obtain sensitive information via a direct request. NOTE: this identifier has been SPLIT due to different researchers and different vulnerability types. See CVE-2014-2857 for the META-INF variant and CVE-2014-2858 for the directory traversal.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Permissions, Privileges, and Access Control </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/264.html' target='_blank'>264</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-2857</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-2857' target='_blank'>CVE-2014-2857</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>The default configuration of the Resources plugin 1.0.0 before 1.2.6 for Pivotal Grails 2.0.0 through 2.3.6 does not properly restrict access to files in the META-INF directory, which allows remote attackers to obtain sensitive information via a direct request. NOTE: this issue was SPLIT from CVE-2014-0053 due to different researchers per ADT5.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Permissions, Privileges, and Access Control </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/264.html' target='_blank'>264</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-2858</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-2858' target='_blank'>CVE-2014-2858</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Directory traversal vulnerability in the Resources plugin 1.0.0 before 1.2.6 for Pivotal Grails 2.0.0 through 2.3.6 allows remote attackers to obtain sensitive information via unspecified vectors related to a "configured block." NOTE: this issue was SPLIT from CVE-2014-0053 per ADT2 due to different vulnerability types.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Path Traversa</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/22.html' target='_blank'>22</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>hibernate-4.0-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Hibernate ORM enables developers to more easily write applications whose data outlives the application process. As an Object/Relational Mapping (ORM) framework, Hibernate is concerned with data persistence as it applies to relational databases (via JDBC).</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-3558</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-3558' target='_blank'>CVE-2014-3558</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>ReflectionHelper (org.hibernate.validator.util.ReflectionHelper) in Hibernate Validator 4.1.0 before 4.2.1, 4.3.x before 4.3.2, and 5.x before 5.1.2 allows attackers to bypass Java Security Manager (JSM) restrictions and execute restricted reflection calls via a crafted application.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized modification</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Permissions, Privileges, and Access Control </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/264.html' target='_blank'>264</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>httpclient-3.0-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>The Apache HttpComponents™ project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HttpClient is a HTTP/1.1 compliant HTTP agent implementation based on HttpCore. It also provides reusable components for client-side authentication, HTTP state management, and HTTP connection management.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2012-5783</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2012-5783' target='_blank'>CVE-2012-5783</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Apache Commons HttpClient 3.x, as used in Amazon Flexible Payments Service (FPS) merchant Java SDK and other products, does not verify that the server hostname matches a domain name in the subjects Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.8</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Input Validation</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/20.html' target='_blank'>20</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>httpclient-4.0-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>The Apache HttpComponents™ project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HttpClient is a HTTP/1.1 compliant HTTP agent implementation based on HttpCore. It also provides reusable components for client-side authentication, HTTP state management, and HTTP connection management.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='medium'>
+                    <strong>CVE-2014-3577</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2014-3577' target='_blank'>CVE-2014-3577</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>org.apache.http.conn.ssl.AbstractVerifier in Apache HttpComponents HttpClient before 4.3.5 and HttpAsyncClient before 4.0.2 does not properly verify that the server hostname matches a domain name in the subjects Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via a "CN=" string in a field in the distinguished name (DN) of a certificate, as demonstrated by the "foo,CN=www.apache.org" string in the O field.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>5.8</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='medium'>MEDIUM</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>General.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/categories' target='_blank'>0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='jar'>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='jar_name'>
+                    <strong>java.completable-future-jdk8-1.0</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <a>Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='low'>
+                    <strong>CVE-2015-0413</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2015-0413' target='_blank'>CVE-2015-0413</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Unspecified vulnerability in Oracle Java SE 7u72 and 8u25 allows local users to affect integrity via unknown vectors related to Serviceability.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='low'>1.9</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='low'>LOW</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized modification; Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Insufficient Information</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/CWE-noinfo.html' target='_blank'>0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2016-3443</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2016-3443' target='_blank'>CVE-2016-3443</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Unspecified vulnerability in Oracle Java SE 6u113, 7u99, and 8u77 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to 2D. NOTE: the previous information is from the April 2016 CPU. Oracle has not commented on third-party claims that this issue allows remote attackers to obtain sensitive information via crafted font data, which triggers an out-of-bounds read.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>10.0</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Insufficient Information</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/CWE-noinfo.html' target='_blank'>0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id='accordianmenu'>
+              <ul>
+                <li>
+                  <p class='high'>
+                    <strong>CVE-2016-5582</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='https://nvd.nist.gov/vuln/detail/CVE-2016-5582' target='_blank'>CVE-2016-5582</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVE Description: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Unspecified vulnerability in Oracle Java SE 6u121, 7u111, 8u102; and Java SE Embedded 8u101 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Hotspot, a different vulnerability than CVE-2016-5573.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Score: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>9.3</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CVSS Flag: </a>
+                      </span>
+                      <span class='result'>
+                        <a class='high'>HIGH</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Access Vector: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Network exploitable - Victim must voluntarily interact with attack mechanism.</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Authentication: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Not required to exploit</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Impact Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Allows unauthorized disclosure of information; Allows unauthorized modification; Allows disruption of service</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>Vulnerability Type: </a>
+                      </span>
+                      <span class='result'>
+                        <a>Improper Access Control</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class='metric'>
+                        <a>CWE ID: </a>
+                      </span>
+                      <span class='result'>
+                        <a href='http://cwe.mitre.org/data/definitions/284.html' target='_blank'>284</a>
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

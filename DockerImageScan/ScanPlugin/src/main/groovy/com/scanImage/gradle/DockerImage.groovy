@@ -5,13 +5,13 @@ package com.scanImage.gradle
  */
 class DockerImage {
 
-    // Save the docker image as a tarball
+    // Test to see if Docker image exists
     def testIfImageExists(String imageName) {
 
         try {
             println "Testing existence of " + imageName + " image..."
 
-            // Create docker save command
+            // Create docker inspect command
             String dockerInspect = 'docker inspect ' + imageName
             def proc = dockerInspect.execute()
             def out = new StringBuilder(), err = new StringBuilder()

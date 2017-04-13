@@ -187,8 +187,10 @@ class ReportBuilder {
                                 }
                             } // Dynamic markup end
                             else {
-                                h2() {
-                                    strong('No Security Vulnerabilities Found!!')
+                                div('class':'no_vul') {
+                                    h2() {
+                                        strong('No Security Vulnerabilities Found!!')
+                                    }
                                 }
                             }
                         } // Static markup start

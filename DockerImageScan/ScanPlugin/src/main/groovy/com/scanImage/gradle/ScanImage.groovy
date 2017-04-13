@@ -17,11 +17,15 @@ class ScanImage {
     // Temporary directories root directory in user directory
     final TEMP_DIR = "./TemporaryDirectories/"
 
-    // Array to store all image layer tarballs
+    // Store all image layer tarballs
     def tarballArray = []
-    // Array to store all jars found in image
-    static jarList = []
-    // Array to store all jar security vulnerabilities found
+    // Store jar objects with names with .jar extensions
+    def jarObjList = []
+    // Store inner jar objects with .jar extensions
+    def jarWithExt = []
+    // Store all jars found in image with .jar extensions removed
+    def finalJarList = []
+    // Store all jar security vulnerabilities found in Docker image
     static vulList = []
 
     // Constructor
@@ -40,11 +44,12 @@ class ScanImage {
     // Start the scan process
     void scanDockerImage(Project target) {
 
+        // Setup to see if Docker image exists on system
         def inspectImage = new DockerImage()
-
+        // Test to see if image exists
         def inspectError = inspectImage.testIfImageExists(imageName)
 
-        // Check if docker image exists
+        // If docker image exists
         if (inspectError.isEmpty()) {
 
             // Create TarballOperations object
@@ -62,14 +67,49 @@ class ScanImage {
             // Get tarball array
             tarballArray = tarball.getTarballArray()
 
+            println "Searching image for main jar files... "
             // Get jar files in tarball
             for (TarballOperations item : tarballArray) {
 
                 // Create JarFileOperations object
-                def jarFile = new JarFileOperations(item.tarPath, item.individualFiles, item.jarDir)
+                def fileToTest = new JarFileOperations(item.tarPath, item.individualFiles, item.jarDir)
 
-                // Get jar files in each layer tarball
-                jarFile.getJarName()
+                // Test file from tarBallArray to see if it is a jar file
+                def newJar = fileToTest.getJarName()
+
+                if (newJar) {
+                    // Pass returned jarFileOperations object to jarObjectList (to be used to search for inner jar files)
+                    jarObjList << newJar
+                    // Pass returned jarFileOperations object to jarWithExt (to store while waiting for possible inner jar files)
+                    jarWithExt << newJar
+                }
+            }
+
+            println "Extracting main jar files to search for inner jar files... "
+            // Extract jars to test for inner jars
+            for (JarFileOperations item : jarObjList) {
+
+                // Extract jar files found to prepare for reading
+                item.extractJar(item.tarPath, item.individualFiles, item.jarDir)
+
+                // Read extracted jar files to test for inner jar files
+                item.basicJarRead((item.jarDir + item.individualFiles))
+
+                for(JarFileOperations newItem : item.getJarList()){
+                    jarWithExt << newItem
+                }
+            }
+
+            // Extract jars to test for inner jars
+            for (JarFileOperations item : jarWithExt) {
+
+                // Jar name with out .jar extension
+                def jarWithoutExtension = item.stripJarExt(item.individualFiles)
+                // Pass jar without jar file extension to finalJarList
+                if(!finalJarList.contains(jarWithoutExtension)) {
+                    finalJarList << jarWithoutExtension
+                    println "Jar found: " + jarWithoutExtension
+                }
             }
 
             // Remove temporary directory
@@ -79,8 +119,8 @@ class ScanImage {
             // Query the database
             def connection = new DBInterface()
             connection.connect(target)
-            connection.queryDBForJar(jarList)
-            connection.queryDBForCVE(jarList)
+            connection.queryDBForJar(finalJarList)
+            connection.queryDBForCVE(finalJarList)
             connection.closeDB()
 
             // Build the html report
@@ -88,7 +128,6 @@ class ScanImage {
             def html = report.build(imageName)
 
             // Clear static lists
-            jarList = []
             vulList = []
 
             //Test if image name is complex
@@ -106,6 +145,7 @@ class ScanImage {
             def url = reportName
             File htmlFile = new File(url)
             Desktop.getDesktop().browse(htmlFile.toURI())
+
         } else {
 
             // Display error message to console

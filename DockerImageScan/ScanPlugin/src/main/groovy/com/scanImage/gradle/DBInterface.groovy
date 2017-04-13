@@ -34,12 +34,14 @@ class DBInterface {
             ]
             sql = Sql.newInstance(db.url, db.user, db.password, db.driver)
 
-            println("Connected to DB")
+            println "Connected to DB"
+            println "Querying database. Please wait..."
+
         } catch (SQLException ex) {
             println "No connection found!"
-            println("SQLException: " + ex.getMessage())
-            println("SQLState: " + ex.getSQLState())
-            println("VendorError: " + ex.getErrorCode())
+            println "SQLException: " + ex.getMessage()
+            println "SQLState: " + ex.getSQLState()
+            println "VendorError: " + ex.getErrorCode()
             throw ex
         }
     }
@@ -47,12 +49,8 @@ class DBInterface {
     // Query database for jar files found
     void queryDBForJar(List jarList) {
 
-        def queryFiles = jarList.size()
-
         for (String item : jarList) {
-            ///change this
-            println(queryFiles + " database queries remain. \r")
-            queryFiles--
+
             try {
                 sql.eachRow("select * from Jar where Jar.JAR_NAME = '" + item + "'") { row ->
                     String name = row.JAR_NAME
@@ -63,9 +61,9 @@ class DBInterface {
                     ScanImage.vulList << jar
                 }
             } catch (SQLException ex) {
-                println("SQLException: " + ex.getMessage())
-                println("SQLState: " + ex.getSQLState())
-                println("VendorError: " + ex.getErrorCode())
+                println "SQLException: " + ex.getMessage()
+                println "SQLState: " + ex.getSQLState()
+                println "VendorError: " + ex.getErrorCode()
             }
         }
     }
@@ -94,9 +92,9 @@ class DBInterface {
                     cve.addCVEToVulList(cve)
                 }
             } catch (SQLException ex) {
-                println("SQLException: " + ex.getMessage())
-                println("SQLState: " + ex.getSQLState())
-                println("VendorError: " + ex.getErrorCode())
+                println "SQLException: " + ex.getMessage()
+                println "SQLState: " + ex.getSQLState()
+                println "VendorError: " + ex.getErrorCode()
             }
         }
     }
@@ -108,9 +106,9 @@ class DBInterface {
             println "Database connection closed!"
         } catch (SQLException ex) {
             println "Could not close connection!"
-            println("SQLException: " + ex.getMessage())
-            println("SQLState: " + ex.getSQLState())
-            println("VendorError: " + ex.getErrorCode())
+            println "SQLException: " + ex.getMessage()
+            println "SQLState: " + ex.getSQLState()
+            println "VendorError: " + ex.getErrorCode()
         }
     }
 }

@@ -114,7 +114,7 @@ class TarballOperations {
     void basicTarRead(String tarPath) {
 
         try {
-            println "Found tarball: " + tarPath
+            println "Image layer tarball: " + tarPath
             // Read tarball File into TarArchiveInputStream
             TarArchiveInputStream myTarFile = new TarArchiveInputStream(new FileInputStream(new File(tarPath)))
 
