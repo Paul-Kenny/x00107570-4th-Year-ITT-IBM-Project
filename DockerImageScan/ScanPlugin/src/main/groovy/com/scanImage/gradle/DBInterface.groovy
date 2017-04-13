@@ -13,6 +13,7 @@ import groovy.sql.*
 class DBInterface {
 
     def sql
+    def vulnerabilitiesList = []
 
     void connect(Project target) {
 
@@ -58,7 +59,8 @@ class DBInterface {
 
                     // create jar object
                     def jar = new Jar(name, jarDesc)
-                    ScanImage.vulList << jar
+                    // Add to vulnerabilities list
+                    vulnerabilitiesList << jar
                 }
             } catch (SQLException ex) {
                 println "SQLException: " + ex.getMessage()
@@ -89,7 +91,11 @@ class DBInterface {
                     // create CVE object
                     def cve = new CVE(name, id, cveDesc, cvssFlag, vector, auth, impact, vulType, cweURL, nvdURL, cvss, cweId)
                     // Add CVE to appropriate Jar listing
-                    cve.addCVEToVulList(cve)
+                    for (Jar jarItem : vulnerabilitiesList) {
+                        if (jarItem.jarName.equalsIgnoreCase(cve.jarName)) {
+                            jarItem.cveList.add(cve)
+                        }
+                    }
                 }
             } catch (SQLException ex) {
                 println "SQLException: " + ex.getMessage()
@@ -97,6 +103,11 @@ class DBInterface {
                 println "VendorError: " + ex.getErrorCode()
             }
         }
+    }
+
+    // Get vulnerabilities list
+    def getVulnerabilitiesList(){
+        return vulnerabilitiesList
     }
 
     // Close database connection

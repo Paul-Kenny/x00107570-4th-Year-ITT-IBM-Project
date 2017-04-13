@@ -25,6 +25,7 @@ class DirectoryOperations {
 
             // Execute make directory
             makeDir.execute().waitFor()
+
         } catch (FileNotFoundException ex) {
             println "The " + tempDir + "directory does not exist!"
             println ex.printStackTrace()

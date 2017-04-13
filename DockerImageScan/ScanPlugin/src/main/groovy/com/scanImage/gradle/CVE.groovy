@@ -25,17 +25,4 @@ class CVE {
         this.nvdUrl = nvdUrl
     }
 
-    // Add the CVE to the vulnerabilities array
-    void addCVEToVulList(CVE cve) {
-        try {
-            for (Jar item : ScanImage.vulList) {
-                if (item.jarName.equalsIgnoreCase(cve.jarName)) {
-                    item.cveList.add(cve)
-                }
-            }
-        }
-        catch (Exception ex) {
-            ex.printStackTrace()
-        }
-    }
 }

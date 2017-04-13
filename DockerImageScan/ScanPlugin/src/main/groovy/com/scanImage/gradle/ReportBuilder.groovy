@@ -8,6 +8,12 @@ import groovy.xml.MarkupBuilder
 
 class ReportBuilder {
 
+    def vulnerabilitiesList = []
+
+    ReportBuilder(vulnerabilitiesList){
+        this.vulnerabilitiesList = vulnerabilitiesList
+    }
+
     // Build the HTML vulnerabilities report
     def build(String imageName) {
 
@@ -47,9 +53,9 @@ class ReportBuilder {
                             h2() {
                                 strong(imageName + ' Image Security Vulnerabilities')
                             } // Static markup end
-                            if (ScanImage.vulList.size() != 0) { // Dynamic markup start
+                            if (vulnerabilitiesList.size() != 0) { // Dynamic markup start
 
-                                for (Jar jar : ScanImage.vulList) {
+                                for (Jar jar : vulnerabilitiesList) {
 
                                     div('class': 'jar') {
                                         div('id': 'accordianmenu') {

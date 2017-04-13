@@ -49,8 +49,8 @@ class JarTests extends Specification{
         // Create CVE object
         CVE cveNew = new CVE(jarName, cveId, cveDesc, cvssFlag, accessVector, auth, impactType, vulType, cweUrl, nvdUrl, cveScore, cweId, )
 
-        // CAll addCVEToVulList method to add new CVE to CVE array in Jar object
-        cveNew.addCVEToVulList(cveNew)
+        // Add new CVE to CVE array in Jar object
+        jar.cveList.add(cveNew)
 
         then:
         // Test to see if Jar object has been created successfully...

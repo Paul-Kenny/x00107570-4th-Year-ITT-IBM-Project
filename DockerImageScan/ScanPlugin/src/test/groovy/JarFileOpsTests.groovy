@@ -61,7 +61,7 @@ class JarFileOpsTests extends Specification{
         String jarDir = "./src/TestDirectory/JarFileOpsTestDir/Temp/Temp/Temp/"
         String imageName = "artifactory.swg.usma.ibm.com:6555/toscana-service-chat"
 
-        // Create temporary directory and file name to test new tarball existence
+        // Declare temporary directory and file name to test new tarball existence
         def fileName = "./src/TestDirectory/JarFileOpsTestDir/Temp/Temp/Temp/opt/ibm/toscana/chat/toscana-service-chat-20170404-132234-standalone.jar"
         def testFile = new File(fileName)
 
@@ -94,6 +94,7 @@ class JarFileOpsTests extends Specification{
             // Test file from tarBallArray to see if it is a jar file
             def newJar = fileToTest.getJarName()
 
+            // If newJar is not null
             if (newJar) {
                 // Pass returned jarFileOperations object to jarObjectList (to be used to search for inner jar files)
                 jarArray << newJar
@@ -109,12 +110,14 @@ class JarFileOpsTests extends Specification{
 
         // Declare test state
         def result = true
+
         // Change test state if jar file exist (it has been successfully extracted)
         if(testFile.exists()){
             result = true
         }
 
         then:
+        // Check if test is passed
         result == true
 
     }
@@ -134,30 +137,30 @@ class JarFileOpsTests extends Specification{
         def jarArray = []
 
         when:
-
+        // Declare test state
         def result
+
+        // jestJar object
         JarFileOperations testJar = new JarFileOperations(tarPath, individualFile, jarDir)
         // Read extracted jar files to test for inner jar files
         testJar.basicJarRead((testJar.jarDir + testJar.individualFiles))
 
+        // Loop through jar list
         for(JarFileOperations newItem : testJar.getJarList()){
             jarArray << newItem
         }
 
+        // Create test jar
         JarFileOperations testFile = jarArray.first()
 
+        // Change test state if jar name matches expected name
         if(testFile.individualFiles == expectedTestJar){
             result = true
         }
 
         then:
+        // Check if test is passed
         result == true
-
-        /*cleanup:
-        // Remove test directories
-        String removeDir = "rm -rf ./src/TestDirectory"
-        removeDir.execute().waitFor()*/
-
     }
 
     def "Call stripJarExt() method on"(){
@@ -170,17 +173,22 @@ class JarFileOpsTests extends Specification{
         String expectedTestJarName =  "commons-lang3-3.4"
 
         when:
+        // Declare test state
         def result
 
+        // Create testJar object
         JarFileOperations testJar = new JarFileOperations(testJarName)
 
+        // Call stripJarExt() method on jar
         def strippedJarName = testJar.stripJarExt(testJarName)
 
+        // Check if stripJarName matches expected name
         if(strippedJarName == expectedTestJarName){
             result = true
         }
 
         then:
+        // Check if test is passed
         result == true
 
         cleanup:

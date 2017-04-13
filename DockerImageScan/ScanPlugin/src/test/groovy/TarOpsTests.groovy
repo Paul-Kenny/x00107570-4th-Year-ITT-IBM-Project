@@ -26,7 +26,7 @@ class TarOpsTests extends Specification{
         // Call dockerTar method to create a tarball from a chosen image
         tarOps.dockerTar()
 
-        // Create temporary directory and file name to test new tarball existence
+        // Declare temporary directory and file name to test new tarball existence
         def fileName = "./src/TestDirectory/TarOpsTestDir/Temp/temp.tar"
         def testFile = new File(fileName)
 
@@ -41,7 +41,6 @@ class TarOpsTests extends Specification{
         then:
         // Test to see if tarball has been created
         result == true
-
 
     }
 
@@ -59,7 +58,7 @@ class TarOpsTests extends Specification{
         // Call dockerTar method to create a tarball from a chosen image
         tarOps.untarImage()
 
-        // Create temporary directory and file name to test image layer tarball existence
+        // Declare temporary directory and file name to test image layer tarball existence
         def fileName = "./src/TestDirectory/TarOpsTestDir/Temp/Temp/c54a2cc56cbb2f04003c1cd4507e118af7c0d340fe7e2720f70976c4b75237dc.json"
         def testFile = new File(fileName)
 
