@@ -51,7 +51,7 @@ class ReportBuilder {
                     div('id': 'row', 'class': 'item') {
                         div('class': 'section-title center') {
                             h2() {
-                                strong(imageName + ' Image Security Vulnerabilities')
+                                strong(imageName + ' Image - Security Vulnerabilities')
                             } // Static markup end
                             if (vulnerabilitiesList.size() != 0) { // Dynamic markup start
 

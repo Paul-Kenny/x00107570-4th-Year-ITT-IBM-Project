@@ -4,25 +4,38 @@
  *
  */
 
-// Apply the groovy plugin to add support for Groovy
+// Apply plugins
 apply plugin: 'groovy'
 apply plugin: 'idea'
 apply plugin: 'maven'
 apply plugin: 'java'
+apply plugin: 'cobertura'
+
+// Add Cobertura to classpath
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.saliman:gradle-cobertura-plugin:2.4.0'
+    }
+}
 
 
-// In this section you declare where to find the dependencies of your project
+// Project dependencies repository
 repositories {
     mavenCentral()
 }
 
-// In this section you declare the dependencies for your production and test code
+// Dependencies for production and test code
 dependencies {
 
-    // We use the awesome Spock testing and specification framework
+    // Spock testing and specification framework
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
     testCompile 'junit:junit:4.12'
 
+    // Compile Gradle API
     compile gradleApi()
 
     // https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
@@ -34,19 +47,24 @@ dependencies {
     // https://mvnrepository.com/artifact/org.tukaani/xz
     compile group: 'org.tukaani', name: 'xz', version: '1.6'
 
-    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    //compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.41'
-
-    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    //compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
-
+    // Resolve JDBC connector at runtime
     runtime 'mysql:mysql-connector-java:6.0.6'
-}
 
+}
+// Cobertura configuration
+cobertura {
+    coverageExcludes = [ '.*ScanImage.*', '.*runScanImage.*', '.*DBInterface.*' ]
+    coverageFormats = ['html', 'xml']
+    coverageIgnoreTrivial = false
+    coverageIgnores = ['org.slf4j.Logger.*']
+    coverageReportDir = new File("$buildDir/reports/cobertura")
+}
+test.finalizedBy(project.tasks.cobertura)
 
 group='com.scanImage'
 version = '1.0-SNAPSHOT'
 
+// Upload Archives
 uploadArchives {
     repositories {
         mavenDeployer {
