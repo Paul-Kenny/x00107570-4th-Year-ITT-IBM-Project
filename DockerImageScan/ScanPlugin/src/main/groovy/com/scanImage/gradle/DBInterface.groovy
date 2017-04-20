@@ -25,12 +25,17 @@ class DBInterface {
             loader.addURL(file.toURL())
         }
 
+        // Set connection username and password
+        DBCredentials credentials = new DBCredentials()
+        def username = credentials.getUserName()
+        def password = credentials.getPassword()
+
         // Connect to database
         try {
             def db = [
                     url     : 'jdbc:mysql://jar-vul.crxuc0o6w3aw.us-west-2.rds.amazonaws.com:3306/jar_vul',
-                    user    : 'paul',
-                    password: 'paulk990099',
+                    user    : username,
+                    password: password,
                     driver  : 'com.mysql.cj.jdbc.Driver'
             ]
             sql = Sql.newInstance(db.url, db.user, db.password, db.driver)
