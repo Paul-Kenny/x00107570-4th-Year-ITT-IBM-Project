@@ -58,6 +58,7 @@ class DBInterface {
         for (String item : jarList) {
 
             try {
+                // Get jars and descriptions
                 sql.eachRow("select * from Jar where Jar.JAR_NAME = '" + item + "'") { row ->
                     String name = row.JAR_NAME
                     String jarDesc = row.JAR_DESC
@@ -79,6 +80,7 @@ class DBInterface {
     void queryDBForCVE(List jarList) {
         for (String item : jarList) {
             try {
+                // Get CVE entries associated with the jars
                 sql.eachRow("select * from Jar, CVE where Jar.JAR_NAME = '" + item + "' and CVE.JAR_NAME_CVE = '" + item + "'") { row ->
                     String name = row.JAR_NAME
                     String id = row.CVE_ID

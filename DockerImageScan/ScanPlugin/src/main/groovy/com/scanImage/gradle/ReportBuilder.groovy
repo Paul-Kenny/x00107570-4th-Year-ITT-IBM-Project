@@ -56,7 +56,7 @@ class ReportBuilder {
                             if (vulnerabilitiesList.size() != 0) { // Dynamic markup start
 
                                 for (Jar jar : vulnerabilitiesList) {
-
+                                    // Render jar entries and descriptions
                                     div('class': 'jar') {
                                         div('id': 'accordianmenu') {
                                             ul() {
@@ -72,7 +72,7 @@ class ReportBuilder {
                                                 }
                                             }
                                         }
-
+                                        // Render associated CVE entries
                                         for (CVE cve : jar.cveList) {
                                             div('id': 'accordianmenu') {
                                                 ul() {

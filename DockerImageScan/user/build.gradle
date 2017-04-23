@@ -6,7 +6,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath group:'com.scanImage', name: 'runScanImage',
+        classpath group:'com.scanImage', name: 'RunScanImage',
                 version: '1.0-SNAPSHOT'
     }
 }

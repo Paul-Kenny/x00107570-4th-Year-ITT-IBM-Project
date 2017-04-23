@@ -19,11 +19,13 @@ class JarFileOperations {
     String tarPath, individualFiles, jarDir
     def jarList = []
 
+    // Constructor
     JarFileOperations(String tarPath, String individualFiles, String jarDir) {
         this.tarPath = tarPath
         this.individualFiles = individualFiles
         this.jarDir = jarDir
     }
+    // Overloaded constructor
     JarFileOperations(String individualFiles) {
         this.individualFiles = individualFiles
     }

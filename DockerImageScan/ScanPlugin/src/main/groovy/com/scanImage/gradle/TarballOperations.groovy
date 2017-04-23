@@ -16,6 +16,7 @@ class TarballOperations {
     String tarballDir, untarDir, jarDir, imageName, tarPath, individualFiles
     def tarballArray = []
 
+    // Constructor
     TarballOperations(String tarballDir, String untarDir, String jarDir, String imageName) {
         this.tarballDir = tarballDir
         this.untarDir = untarDir
@@ -23,6 +24,7 @@ class TarballOperations {
         this.imageName = imageName
     }
 
+    // Overloaded constructor
     TarballOperations(String tarPath, String individualFiles, String jarDir) {
         this.tarPath = tarPath
         this.individualFiles = individualFiles
@@ -140,6 +142,7 @@ class TarballOperations {
         }
     }
 
+    // Get tarball list
     TarballOperations[] getTarballArray() {
         return tarballArray
     }

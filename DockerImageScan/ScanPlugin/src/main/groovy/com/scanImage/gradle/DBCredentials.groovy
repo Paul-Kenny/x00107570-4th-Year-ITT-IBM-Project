@@ -2,6 +2,7 @@ package com.scanImage.gradle
 
 /**
  * Created by Paul on 4/20/17.
+ * Class to pull database connection credentials from system environment variables.
  */
 class DBCredentials {
 
