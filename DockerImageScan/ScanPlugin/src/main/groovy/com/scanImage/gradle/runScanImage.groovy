@@ -9,7 +9,7 @@ import org.gradle.api.Plugin
  * associated with jar files contained in the image.
  */
 
-class runScanImage implements Plugin<Project> {
+class RunScanImage implements Plugin<Project> {
     void apply(Project target) {
         target.task('scan') {
             doLast {
